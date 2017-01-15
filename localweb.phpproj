@@ -1,0 +1,726 @@
+"General"
+{
+"ProjectType" = "local"
+"AutoLoadTemplate" = "%s.php;class.%s.php;"
+"IncludeDirs" = ""
+}
+"Configurations"
+{
+    "Local|PHP 5.6"
+    {
+    }
+    "Staging|PHP 5.6"
+    {
+    }
+    "Production|PHP 5.6"
+    {
+    }
+}
+"Files"
+{
+    "assets"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\autocomplete"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\autocomplete\\indicator.gif"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\autocomplete\\jquery.autocomplete.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\jquery.ajaxqueue.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\jquery.autocomplete.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\jquery.ba-bbq.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\jquery.ba-bbq.min.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\jquery.bgiframe.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\jquery.cookie.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\jquery.history.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\jquery.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\jquery.maskedinput.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\jquery.maskedinput.min.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\jquery.metadata.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\jquery.min.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\jquery.multifile.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\jquery.rating.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\jquery.treeview.async.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\jquery.treeview.edit.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\jquery.treeview.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\jquery.yii.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\jquery.yiiactiveform.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\jquery.yiitab.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\jui"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\jui\\css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\jui\\css\\base"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\jui\\css\\base\\images"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\jui\\css\\base\\images\\ui-bg_flat_0_aaaaaa_40x100.png"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\jui\\css\\base\\images\\ui-bg_flat_75_ffffff_40x100.png"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\jui\\css\\base\\images\\ui-bg_glass_55_fbf9ee_1x400.png"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\jui\\css\\base\\images\\ui-bg_glass_65_ffffff_1x400.png"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\jui\\css\\base\\images\\ui-bg_glass_75_dadada_1x400.png"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\jui\\css\\base\\images\\ui-bg_glass_75_e6e6e6_1x400.png"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\jui\\css\\base\\images\\ui-bg_glass_95_fef1ec_1x400.png"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\jui\\css\\base\\images\\ui-bg_highlight-soft_75_cccccc_1x100.png"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\jui\\css\\base\\images\\ui-icons_222222_256x240.png"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\jui\\css\\base\\images\\ui-icons_2e83ff_256x240.png"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\jui\\css\\base\\images\\ui-icons_454545_256x240.png"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\jui\\css\\base\\images\\ui-icons_888888_256x240.png"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\jui\\css\\base\\images\\ui-icons_cd0a0a_256x240.png"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\jui\\css\\base\\jquery-ui.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\jui\\css\\base\\jquery.ui.accordion.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\jui\\css\\base\\jquery.ui.autocomplete.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\jui\\css\\base\\jquery.ui.button.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\jui\\css\\base\\jquery.ui.core.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\jui\\css\\base\\jquery.ui.datepicker.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\jui\\css\\base\\jquery.ui.dialog.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\jui\\css\\base\\jquery.ui.menu.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\jui\\css\\base\\jquery.ui.progressbar.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\jui\\css\\base\\jquery.ui.resizable.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\jui\\css\\base\\jquery.ui.selectable.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\jui\\css\\base\\jquery.ui.slider.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\jui\\css\\base\\jquery.ui.spinner.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\jui\\css\\base\\jquery.ui.tabs.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\jui\\css\\base\\jquery.ui.theme.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\jui\\css\\base\\jquery.ui.tooltip.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\jui\\js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\jui\\js\\jquery-ui-i18n.min.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\jui\\js\\jquery-ui.min.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\punycode.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\punycode.min.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\rating"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\rating\\delete.gif"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\rating\\jquery.rating.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\rating\\star.gif"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\treeview"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\treeview\\images"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\treeview\\images\\ajax-loader.gif"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\treeview\\images\\file.gif"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\treeview\\images\\folder-closed.gif"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\treeview\\images\\folder.gif"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\treeview\\images\\minus.gif"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\treeview\\images\\plus.gif"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\treeview\\images\\treeview-black-line.gif"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\treeview\\images\\treeview-black.gif"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\treeview\\images\\treeview-default-line.gif"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\treeview\\images\\treeview-default.gif"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\treeview\\images\\treeview-famfamfam-line.gif"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\treeview\\images\\treeview-famfamfam.gif"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\treeview\\images\\treeview-gray-line.gif"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\treeview\\images\\treeview-gray.gif"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\treeview\\images\\treeview-red-line.gif"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\treeview\\images\\treeview-red.gif"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\treeview\\jquery.treeview.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\yiitab"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\25d13e51\\yiitab\\jquery.yiitab.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Components"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Components\\Controllers"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Components\\Controllers\\MainController.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Components\\Models"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Components\\Models\\Couriers.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Components\\Models\\DataBase.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Components\\Views"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Components\\Views\\_css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Components\\Views\\_css\\bootstrap.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Components\\Views\\_JavaScript"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Components\\Views\\_JavaScript\\jquery-2.1.1.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Components\\Views\\Couriers"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Components\\Views\\Couriers\\Couriers.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Components\\Views\\Error404"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Components\\Views\\Error404\\Error404.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Components\\Views\\footer.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Components\\Views\\header.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Components\\Views\\Main"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Components\\Views\\Main\\Main.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "css\\bg.gif"
+    {
+    "ProjRelPath" = "T"
+    }
+    "css\\form.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "css\\ie.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "css\\main.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "css\\print.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "css\\screen.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "images"
+    {
+    "ProjRelPath" = "T"
+    }
+    "index-test.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "index.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "localweb.intellisense.cache"
+    {
+    "ProjRelPath" = "T"
+    }
+    "protected"
+    {
+    "ProjRelPath" = "T"
+    }
+    "protected\\.htaccess"
+    {
+    "ProjRelPath" = "T"
+    }
+    "protected\\commands"
+    {
+    "ProjRelPath" = "T"
+    }
+    "protected\\commands\\shell"
+    {
+    "ProjRelPath" = "T"
+    }
+    "protected\\components"
+    {
+    "ProjRelPath" = "T"
+    }
+    "protected\\components\\Controller.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "protected\\components\\UserIdentity.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "protected\\config"
+    {
+    "ProjRelPath" = "T"
+    }
+    "protected\\config\\console.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "protected\\config\\main.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "protected\\config\\test.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "protected\\controllers"
+    {
+    "ProjRelPath" = "T"
+    }
+    "protected\\controllers\\SiteController.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "protected\\data"
+    {
+    "ProjRelPath" = "T"
+    }
+    "protected\\data\\schema.mysql.sql"
+    {
+    "ProjRelPath" = "T"
+    }
+    "protected\\data\\schema.sqlite.sql"
+    {
+    "ProjRelPath" = "T"
+    }
+    "protected\\data\\testdrive.db"
+    {
+    "ProjRelPath" = "T"
+    }
+    "protected\\extensions"
+    {
+    "ProjRelPath" = "T"
+    }
+    "protected\\messages"
+    {
+    "ProjRelPath" = "T"
+    }
+    "protected\\migrations"
+    {
+    "ProjRelPath" = "T"
+    }
+    "protected\\models"
+    {
+    "ProjRelPath" = "T"
+    }
+    "protected\\models\\ContactForm.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "protected\\models\\LoginForm.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "protected\\runtime"
+    {
+    "ProjRelPath" = "T"
+    }
+    "protected\\tests"
+    {
+    "ProjRelPath" = "T"
+    }
+    "protected\\tests\\bootstrap.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "protected\\tests\\fixtures"
+    {
+    "ProjRelPath" = "T"
+    }
+    "protected\\tests\\functional"
+    {
+    "ProjRelPath" = "T"
+    }
+    "protected\\tests\\functional\\SiteTest.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "protected\\tests\\phpunit.xml"
+    {
+    "ProjRelPath" = "T"
+    }
+    "protected\\tests\\report"
+    {
+    "ProjRelPath" = "T"
+    }
+    "protected\\tests\\unit"
+    {
+    "ProjRelPath" = "T"
+    }
+    "protected\\tests\\WebTestCase.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "protected\\vendor"
+    {
+    "ProjRelPath" = "T"
+    }
+    "protected\\views"
+    {
+    "ProjRelPath" = "T"
+    }
+    "protected\\views\\layouts"
+    {
+    "ProjRelPath" = "T"
+    }
+    "protected\\views\\layouts\\column1.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "protected\\views\\layouts\\column2.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "protected\\views\\layouts\\main.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "protected\\views\\site"
+    {
+    "ProjRelPath" = "T"
+    }
+    "protected\\views\\site\\contact.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "protected\\views\\site\\error.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "protected\\views\\site\\index.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "protected\\views\\site\\login.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "protected\\views\\site\\pages"
+    {
+    "ProjRelPath" = "T"
+    }
+    "protected\\views\\site\\pages\\about.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "protected\\yiic"
+    {
+    "ProjRelPath" = "T"
+    }
+    "protected\\yiic.bat"
+    {
+    "ProjRelPath" = "T"
+    }
+    "protected\\yiic.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "themes"
+    {
+    "ProjRelPath" = "T"
+    }
+    "themes\\classic"
+    {
+    "ProjRelPath" = "T"
+    }
+    "themes\\classic\\views"
+    {
+    "ProjRelPath" = "T"
+    }
+    "themes\\classic\\views\\.htaccess"
+    {
+    "ProjRelPath" = "T"
+    }
+    "themes\\classic\\views\\layouts"
+    {
+    "ProjRelPath" = "T"
+    }
+    "themes\\classic\\views\\site"
+    {
+    "ProjRelPath" = "T"
+    }
+    "themes\\classic\\views\\system"
+    {
+    "ProjRelPath" = "T"
+    }
+}
+"ProjStartupServices"
+{
+}
+"Globals"
+{
+}
+"References"
+{
+}
