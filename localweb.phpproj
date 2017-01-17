@@ -842,23 +842,11 @@
     {
     "ProjRelPath" = "T"
     }
-    "protected\\views\\skup\\_search.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "protected\\views\\skup\\_view.php"
-    {
-    "ProjRelPath" = "T"
-    }
     "protected\\views\\skup\\admin.php"
     {
     "ProjRelPath" = "T"
     }
     "protected\\views\\skup\\create.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "protected\\views\\skup\\index.php"
     {
     "ProjRelPath" = "T"
     }

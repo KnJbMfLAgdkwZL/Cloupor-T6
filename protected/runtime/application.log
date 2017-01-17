@@ -18856,3 +18856,1008 @@ REQUEST_URI=/index.php
 in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\views\site\_view.php (9)
 in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\views\site\indexSupport.php (7)
 in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\SiteController.php (70)
+2014/12/16 02:13:37 [warning] [application] Failed to set unsafe attribute "Id" of "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/16 02:13:44 [warning] [application] Failed to set unsafe attribute "Id" of "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/16 02:13:57 [warning] [application] Failed to set unsafe attribute "Id" of "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/16 02:15:43 [warning] [application] Failed to set unsafe attribute "Id" of "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/16 02:15:51 [warning] [application] Failed to set unsafe attribute "Id" of "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/18 20:48:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Skup/index".' in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(141): CWebApplication->runController('Skup/index')
+#1 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=Skup/index
+HTTP_REFERER=http://127.0.0.1:8080/index.php?r=News/admin
+---
+2014/12/18 22:54:28 [error] [exception.CException] exception 'CException' with message 'SkupController cannot find the requested view "index".' in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php:878
+Stack trace:
+#0 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#1 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\SkupController.php(81): CController->render('index', Array)
+#2 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\actions\CInlineAction.php(49): SkupController->actionIndex()
+#3 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(282): CController->run('index')
+#12 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(141): CWebApplication->runController('skup/index')
+#13 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/index.php?r=skup/index
+HTTP_REFERER=http://127.0.0.1:8080/index.php?r=Skup/admin
+---
+2014/12/18 22:54:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php:483
+Stack trace:
+#0 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(270): CController->missingAction('index')
+#1 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(282): CController->run('index')
+#2 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(141): CWebApplication->runController('skup/index')
+#3 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=skup/index
+HTTP_REFERER=http://127.0.0.1:8080/index.php?r=Skup/admin
+---
+2014/12/18 22:54:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php:483
+Stack trace:
+#0 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(270): CController->missingAction('index')
+#1 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(282): CController->run('index')
+#2 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(141): CWebApplication->runController('skup/index')
+#3 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=skup/index
+HTTP_REFERER=http://127.0.0.1:8080/index.php?r=Skup/admin
+---
+2014/12/18 22:57:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php:483
+Stack trace:
+#0 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(270): CController->missingAction('index')
+#1 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(282): CController->run('index')
+#2 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(141): CWebApplication->runController('skup/index')
+#3 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=skup/index
+HTTP_REFERER=http://127.0.0.1:8080/index.php?r=skup/create
+---
+2014/12/18 23:26:40 [error] [php] Undefined variable: now (D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\views\skup\admin.php:24)
+Stack trace:
+#0 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(869): SkupController->renderFile()
+#1 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(782): SkupController->renderPartial()
+#2 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\SkupController.php(77): SkupController->render()
+#3 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\actions\CInlineAction.php(49): SkupController->actionAdmin()
+#4 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(133): SkupController->runAction()
+#6 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CInlineFilter.php(58): SkupController->filterAccessControl()
+#9 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(291): CFilterChain->run()
+#11 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(265): SkupController->runActionWithFilters()
+#12 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(282): SkupController->run()
+#13 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=Skup/admin
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\views\skup\admin.php (24)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\SkupController.php (77)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/18 23:29:19 [error] [php] Creating default object from empty value (D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\SkupController.php:73)
+Stack trace:
+#0 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(133): SkupController->runAction()
+#1 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CInlineFilter.php(58): SkupController->filterAccessControl()
+#4 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(265): SkupController->runActionWithFilters()
+#7 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(282): SkupController->run()
+#8 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?Skup%5BMerchandise%5D=&Skup%5BComment%5D=&Skup%5BNo1%5D=&Skup%5BNo2%5D=&Skup%5BNo3%5D=&Skup_page=1&ajax=skup-grid&r=Skup%2Fadmin
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\SkupController.php (73)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/18 23:29:28 [error] [php] Creating default object from empty value (D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\SkupController.php:73)
+Stack trace:
+#0 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(133): SkupController->runAction()
+#1 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CInlineFilter.php(58): SkupController->filterAccessControl()
+#4 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(265): SkupController->runActionWithFilters()
+#7 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(282): SkupController->run()
+#8 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?Skup%5BMerchandise%5D=&Skup%5BComment%5D=&Skup%5BNo1%5D=&Skup%5BNo2%5D=&Skup%5BNo3%5D=&Skup_page=1&ajax=skup-grid&r=Skup%2Fadmin
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\SkupController.php (73)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/18 23:30:46 [error] [php] Creating default object from empty value (D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\SkupController.php:73)
+Stack trace:
+#0 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(133): SkupController->runAction()
+#1 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CInlineFilter.php(58): SkupController->filterAccessControl()
+#4 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(265): SkupController->runActionWithFilters()
+#7 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(282): SkupController->run()
+#8 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?Skup%5BMerchandise%5D=&Skup%5BComment%5D=&Skup%5BNo1%5D=&Skup%5BNo2%5D=&Skup%5BNo3%5D=&Skup_page=1&Skup_sort=Skupforever&ajax=skup-grid&r=skup%2Fadmin
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\SkupController.php (73)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/19 00:00:33 [error] [php] Creating default object from empty value (D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\SkupController.php:73)
+Stack trace:
+#0 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(133): SkupController->runAction()
+#1 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CInlineFilter.php(58): SkupController->filterAccessControl()
+#4 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(265): SkupController->runActionWithFilters()
+#7 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(282): SkupController->run()
+#8 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?Skup%5BMerchandise%5D=&Skup%5BComment%5D=&Skup%5BNo1%5D=10&Skup%5BNo2%5D=&Skup%5BNo3%5D=&Skup_page=1&ajax=now-grid&r=skup%2Fadmin
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\SkupController.php (73)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/19 00:01:05 [error] [php] Creating default object from empty value (D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\SkupController.php:73)
+Stack trace:
+#0 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(133): SkupController->runAction()
+#1 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CInlineFilter.php(58): SkupController->filterAccessControl()
+#4 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(265): SkupController->runActionWithFilters()
+#7 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(282): SkupController->run()
+#8 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?Skup%5BMerchandise%5D=&Skup%5BComment%5D=&Skup%5BNo1%5D=10&Skup%5BNo2%5D=&Skup%5BNo3%5D=&Skup_page=1&Skup_sort=No1.desc&ajax=now-grid&r=skup%2Fadmin
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\SkupController.php (73)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/19 00:01:09 [error] [php] Creating default object from empty value (D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\SkupController.php:73)
+Stack trace:
+#0 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(133): SkupController->runAction()
+#1 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CInlineFilter.php(58): SkupController->filterAccessControl()
+#4 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(265): SkupController->runActionWithFilters()
+#7 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(282): SkupController->run()
+#8 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?Skup%5BMerchandise%5D=&Skup%5BComment%5D=&Skup%5BNo1%5D=10&Skup%5BNo2%5D=&Skup%5BNo3%5D=&Skup_page=1&Skup_sort=No1.desc&ajax=forever-grid&r=skup%2Fadmin
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\SkupController.php (73)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/19 00:01:15 [error] [php] Creating default object from empty value (D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\SkupController.php:73)
+Stack trace:
+#0 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(133): SkupController->runAction()
+#1 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CInlineFilter.php(58): SkupController->filterAccessControl()
+#4 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(265): SkupController->runActionWithFilters()
+#7 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(282): SkupController->run()
+#8 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?Skup%5BMerchandise%5D=&Skup%5BComment%5D=&Skup%5BNo1%5D=&Skup%5BNo2%5D=&Skup%5BNo3%5D=&Skup_page=1&Skup_sort=No1.desc&ajax=forever-grid&r=skup%2Fadmin
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\SkupController.php (73)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/19 00:04:32 [error] [php] Creating default object from empty value (D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\SkupController.php:77)
+Stack trace:
+#0 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(133): SkupController->runAction()
+#1 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CInlineFilter.php(58): SkupController->filterAccessControl()
+#4 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(265): SkupController->runActionWithFilters()
+#7 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(282): SkupController->run()
+#8 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?Skup%5BMerchandise%5D=&Skup%5BComment%5D=&Skup%5BNo1%5D=10&Skup%5BNo2%5D=&Skup%5BNo3%5D=&Skup_page=1&ajax=now-grid&r=skup%2Fadmin
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\SkupController.php (77)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/19 00:09:46 [error] [php] Indirect modification of overloaded property Skup::$attributes has no effect (D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\SkupController.php:73)
+Stack trace:
+#0 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(133): SkupController->runAction()
+#1 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CInlineFilter.php(58): SkupController->filterAccessControl()
+#4 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(265): SkupController->runActionWithFilters()
+#7 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(282): SkupController->run()
+#8 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=skup/admin
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\SkupController.php (73)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/19 00:10:23 [error] [php] Indirect modification of overloaded property Skup::$attributes has no effect (D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\SkupController.php:73)
+Stack trace:
+#0 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(133): SkupController->runAction()
+#1 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CInlineFilter.php(58): SkupController->filterAccessControl()
+#4 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(265): SkupController->runActionWithFilters()
+#7 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(282): SkupController->run()
+#8 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=skup/admin
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\SkupController.php (73)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/19 00:10:32 [error] [php] Indirect modification of overloaded property Skup::$attributes has no effect (D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\SkupController.php:73)
+Stack trace:
+#0 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(133): SkupController->runAction()
+#1 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CInlineFilter.php(58): SkupController->filterAccessControl()
+#4 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(265): SkupController->runActionWithFilters()
+#7 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(282): SkupController->run()
+#8 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=skup/admin
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\SkupController.php (73)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/19 00:10:37 [error] [php] Indirect modification of overloaded property Skup::$attributes has no effect (D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\SkupController.php:73)
+Stack trace:
+#0 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(133): SkupController->runAction()
+#1 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CInlineFilter.php(58): SkupController->filterAccessControl()
+#4 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(265): SkupController->runActionWithFilters()
+#7 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(282): SkupController->run()
+#8 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=skup/admin
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\SkupController.php (73)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/19 00:21:44 [error] [exception.CException] exception 'CException' with message 'Staffercoriers and its behaviors do not have a method or closure named "getAssocList".' in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\db\ar\CActiveRecord.php(227): CComponent->__call('getAssocList', Array)
+#1 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\views\couriers\StafferAddPack.php(24): CActiveRecord->__call('getAssocList', Array)
+#2 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\views\couriers\StafferAddPack.php(24): Staffercoriers->getAssocList()
+#3 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CBaseController.php(126): require('D:\Program File...')
+#4 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\Program File...', Array, true)
+#5 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(869): CBaseController->renderFile('D:\Program File...', Array, true)
+#6 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(782): CController->renderPartial('StafferAddPack', Array, true)
+#7 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php(127): CController->render('StafferAddPack', Array)
+#8 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\actions\CInlineAction.php(49): CouriersController->actionStafferAddPack()
+#9 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(291): CFilterChain->run()
+#16 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(282): CController->run('StafferAddPack')
+#18 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(141): CWebApplication->runController('couriers/Staffe...')
+#19 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/index.php?r=couriers/StafferAddPack
+HTTP_REFERER=http://127.0.0.1:8080/index.php?r=Couriers/StafferPacks
+---
+2014/12/19 00:22:54 [error] [exception.CException] exception 'CException' with message 'Staffercoriers and its behaviors do not have a method or closure named "getAssocList".' in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\db\ar\CActiveRecord.php(227): CComponent->__call('getAssocList', Array)
+#1 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\views\couriers\StafferAddPack.php(24): CActiveRecord->__call('getAssocList', Array)
+#2 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\views\couriers\StafferAddPack.php(24): Staffercoriers->getAssocList()
+#3 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CBaseController.php(126): require('D:\Program File...')
+#4 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\Program File...', Array, true)
+#5 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(869): CBaseController->renderFile('D:\Program File...', Array, true)
+#6 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(782): CController->renderPartial('StafferAddPack', Array, true)
+#7 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php(127): CController->render('StafferAddPack', Array)
+#8 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\actions\CInlineAction.php(49): CouriersController->actionStafferAddPack()
+#9 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(291): CFilterChain->run()
+#16 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(282): CController->run('StafferAddPack')
+#18 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(141): CWebApplication->runController('couriers/Staffe...')
+#19 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/index.php?r=couriers/StafferAddPack
+HTTP_REFERER=http://127.0.0.1:8080/index.php?r=Couriers/StafferPacks
+---
+2014/12/19 00:23:36 [error] [exception.CException] exception 'CException' with message 'Staffercoriers and its behaviors do not have a method or closure named "getAssocList".' in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\db\ar\CActiveRecord.php(227): CComponent->__call('getAssocList', Array)
+#1 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\views\couriers\StafferAddPack.php(24): CActiveRecord->__call('getAssocList', Array)
+#2 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\views\couriers\StafferAddPack.php(24): Staffercoriers->getAssocList()
+#3 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CBaseController.php(126): require('D:\Program File...')
+#4 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\Program File...', Array, true)
+#5 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(869): CBaseController->renderFile('D:\Program File...', Array, true)
+#6 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(782): CController->renderPartial('StafferAddPack', Array, true)
+#7 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php(127): CController->render('StafferAddPack', Array)
+#8 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\actions\CInlineAction.php(49): CouriersController->actionStafferAddPack()
+#9 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(291): CFilterChain->run()
+#16 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(282): CController->run('StafferAddPack')
+#18 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(141): CWebApplication->runController('couriers/Staffe...')
+#19 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/index.php?r=couriers/StafferAddPack
+HTTP_REFERER=http://127.0.0.1:8080/index.php?r=Couriers/StafferPacks
+---
+2014/12/19 00:35:00 [error] [php] Undefined variable: models (D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\models\Staffercoriers.php:66)
+Stack trace:
+#0 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CBaseController.php(95): CouriersController->renderInternal()
+#1 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(869): CouriersController->renderFile()
+#2 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(782): CouriersController->renderPartial()
+#3 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php(127): CouriersController->render()
+#4 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\actions\CInlineAction.php(49): CouriersController->actionStafferAddPack()
+#5 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(133): CouriersController->runAction()
+#7 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#9 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CInlineFilter.php(58): CouriersController->filterAccessControl()
+#10 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#11 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(291): CFilterChain->run()
+#12 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(265): CouriersController->runActionWithFilters()
+#13 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(282): CouriersController->run()
+#14 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#15 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=couriers/StafferAddPack
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\models\Staffercoriers.php (66)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\views\couriers\StafferAddPack.php (25)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (127)
+2014/12/19 00:36:10 [error] [exception.CException] exception 'CException' with message 'CActiveDataProvider and its behaviors do not have a method or closure named "findAll".' in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\models\Staffercoriers.php(66): CComponent->__call('findAll', Array)
+#1 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\models\Staffercoriers.php(66): CActiveDataProvider->findAll()
+#2 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\views\couriers\StafferAddPack.php(25): Staffercoriers::getAssocList()
+#3 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CBaseController.php(126): require('D:\Program File...')
+#4 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\Program File...', Array, true)
+#5 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(869): CBaseController->renderFile('D:\Program File...', Array, true)
+#6 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(782): CController->renderPartial('StafferAddPack', Array, true)
+#7 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php(127): CController->render('StafferAddPack', Array)
+#8 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\actions\CInlineAction.php(49): CouriersController->actionStafferAddPack()
+#9 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(291): CFilterChain->run()
+#16 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(282): CController->run('StafferAddPack')
+#18 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(141): CWebApplication->runController('couriers/Staffe...')
+#19 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/index.php?r=couriers/StafferAddPack
+HTTP_REFERER=http://127.0.0.1:8080/index.php?r=Couriers/StafferPacks
+---
+2014/12/19 00:44:49 [error] [exception.CException] exception 'CException' with message 'CDbCriteria and its behaviors do not have a method or closure named "with".' in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\models\Staffercoriers.php(63): CComponent->__call('with', Array)
+#1 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\models\Staffercoriers.php(63): CDbCriteria->with('Coriers')
+#2 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\views\couriers\StafferAddPack.php(25): Staffercoriers::getAssocList()
+#3 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CBaseController.php(126): require('D:\Program File...')
+#4 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\Program File...', Array, true)
+#5 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(869): CBaseController->renderFile('D:\Program File...', Array, true)
+#6 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(782): CController->renderPartial('StafferAddPack', Array, true)
+#7 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php(127): CController->render('StafferAddPack', Array)
+#8 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\actions\CInlineAction.php(49): CouriersController->actionStafferAddPack()
+#9 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(291): CFilterChain->run()
+#16 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(282): CController->run('StafferAddPack')
+#18 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(141): CWebApplication->runController('couriers/Staffe...')
+#19 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/index.php?r=couriers/StafferAddPack
+HTTP_REFERER=http://127.0.0.1:8080/index.php?r=Couriers/StafferPacks
+---
+2014/12/19 00:58:31 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND Request = 1)' at line 1. The SQL statement executed was: SELECT * FROM `staffercoriers` `t` WHERE ((IdStaffer = :id) AND (IdCoriers = Coriers.Id)) AND (AND Request = 1).
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\models\Staffercoriers.php (71)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\views\couriers\StafferAddPack.php (25)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (127)
+2014/12/19 00:58:31 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND Request = 1)' at line 1. The SQL statement executed was: SELECT * FROM `staffercoriers` `t` WHERE ((IdStaffer = :id) AND (IdCoriers = Coriers.Id)) AND (AND Request = 1)' in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryAll()
+#2 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\db\ar\CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#3 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\models\Staffercoriers.php(71): CActiveRecord->findAll(Object(CDbCriteria))
+#4 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\views\couriers\StafferAddPack.php(25): Staffercoriers::getAssocList()
+#5 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CBaseController.php(126): require('D:\Program File...')
+#6 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\Program File...', Array, true)
+#7 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(869): CBaseController->renderFile('D:\Program File...', Array, true)
+#8 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(782): CController->renderPartial('StafferAddPack', Array, true)
+#9 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php(127): CController->render('StafferAddPack', Array)
+#10 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\actions\CInlineAction.php(49): CouriersController->actionStafferAddPack()
+#11 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#15 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#16 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#17 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(291): CFilterChain->run()
+#18 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(282): CController->run('StafferAddPack')
+#20 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(141): CWebApplication->runController('couriers/Staffe...')
+#21 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#22 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/index.php?r=couriers/StafferAddPack
+HTTP_REFERER=http://127.0.0.1:8080/index.php?r=Couriers/StafferPacks
+---
+2014/12/19 00:58:48 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND Request = 1)' at line 1. The SQL statement executed was: SELECT * FROM `staffercoriers` `t` WHERE (IdStaffer = :id) AND (AND Request = 1).
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\models\Staffercoriers.php (71)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\views\couriers\StafferAddPack.php (25)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (127)
+2014/12/19 00:58:48 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND Request = 1)' at line 1. The SQL statement executed was: SELECT * FROM `staffercoriers` `t` WHERE (IdStaffer = :id) AND (AND Request = 1)' in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryAll()
+#2 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\db\ar\CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#3 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\models\Staffercoriers.php(71): CActiveRecord->findAll(Object(CDbCriteria))
+#4 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\views\couriers\StafferAddPack.php(25): Staffercoriers::getAssocList()
+#5 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CBaseController.php(126): require('D:\Program File...')
+#6 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\Program File...', Array, true)
+#7 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(869): CBaseController->renderFile('D:\Program File...', Array, true)
+#8 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(782): CController->renderPartial('StafferAddPack', Array, true)
+#9 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php(127): CController->render('StafferAddPack', Array)
+#10 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\actions\CInlineAction.php(49): CouriersController->actionStafferAddPack()
+#11 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#15 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#16 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#17 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(291): CFilterChain->run()
+#18 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(282): CController->run('StafferAddPack')
+#20 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(141): CWebApplication->runController('couriers/Staffe...')
+#21 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#22 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/index.php?r=couriers/StafferAddPack
+HTTP_REFERER=http://127.0.0.1:8080/index.php?r=Couriers/StafferPacks
+---
+2014/12/19 01:00:57 [warning] [application] Failed to set unsafe attribute "Id" of "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/19 01:00:59 [warning] [application] Failed to set unsafe attribute "Id" of "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/19 01:01:27 [warning] [application] Failed to set unsafe attribute "Id" of "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/19 01:03:45 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Coriers.Id' in 'where clause'. The SQL statement executed was: SELECT * FROM `staffercoriers` `t` WHERE (IdStaffer = :id) AND (IdCoriers = Coriers.Id).
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\models\Staffercoriers.php (70)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\views\couriers\StafferAddPack.php (25)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (127)
+2014/12/19 01:03:45 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Coriers.Id' in 'where clause'. The SQL statement executed was: SELECT * FROM `staffercoriers` `t` WHERE (IdStaffer = :id) AND (IdCoriers = Coriers.Id)' in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryAll()
+#2 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\db\ar\CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#3 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\models\Staffercoriers.php(70): CActiveRecord->findAll(Object(CDbCriteria))
+#4 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\views\couriers\StafferAddPack.php(25): Staffercoriers::getAssocList()
+#5 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CBaseController.php(126): require('D:\Program File...')
+#6 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\Program File...', Array, true)
+#7 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(869): CBaseController->renderFile('D:\Program File...', Array, true)
+#8 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(782): CController->renderPartial('StafferAddPack', Array, true)
+#9 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php(127): CController->render('StafferAddPack', Array)
+#10 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\actions\CInlineAction.php(49): CouriersController->actionStafferAddPack()
+#11 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#15 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#16 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#17 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(291): CFilterChain->run()
+#18 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(282): CController->run('StafferAddPack')
+#20 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(141): CWebApplication->runController('couriers/Staffe...')
+#21 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#22 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/index.php?r=couriers/StafferAddPack
+HTTP_REFERER=http://127.0.0.1:8080/index.php?r=Couriers/StafferPacks
+---
+2014/12/19 01:03:53 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND Request = 1)' at line 1. The SQL statement executed was: SELECT * FROM `staffercoriers` `t` WHERE (IdStaffer = :id) AND (AND Request = 1).
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\models\Staffercoriers.php (70)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\views\couriers\StafferAddPack.php (25)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (127)
+2014/12/19 01:03:53 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND Request = 1)' at line 1. The SQL statement executed was: SELECT * FROM `staffercoriers` `t` WHERE (IdStaffer = :id) AND (AND Request = 1)' in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryAll()
+#2 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\db\ar\CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#3 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\models\Staffercoriers.php(70): CActiveRecord->findAll(Object(CDbCriteria))
+#4 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\views\couriers\StafferAddPack.php(25): Staffercoriers::getAssocList()
+#5 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CBaseController.php(126): require('D:\Program File...')
+#6 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\Program File...', Array, true)
+#7 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(869): CBaseController->renderFile('D:\Program File...', Array, true)
+#8 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(782): CController->renderPartial('StafferAddPack', Array, true)
+#9 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php(127): CController->render('StafferAddPack', Array)
+#10 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\actions\CInlineAction.php(49): CouriersController->actionStafferAddPack()
+#11 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#15 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#16 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#17 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(291): CFilterChain->run()
+#18 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(282): CController->run('StafferAddPack')
+#20 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(141): CWebApplication->runController('couriers/Staffe...')
+#21 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#22 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/index.php?r=couriers/StafferAddPack
+HTTP_REFERER=http://127.0.0.1:8080/index.php?r=Couriers/StafferPacks
+---
+2014/12/19 01:04:13 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Coriers.Id' in 'where clause'. The SQL statement executed was: SELECT * FROM `staffercoriers` `t` WHERE ((IdStaffer = :id) AND (IdCoriers = Coriers.Id)) AND (Request = 1).
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\models\Staffercoriers.php (70)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\views\couriers\StafferAddPack.php (25)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (127)
+2014/12/19 01:04:13 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Coriers.Id' in 'where clause'. The SQL statement executed was: SELECT * FROM `staffercoriers` `t` WHERE ((IdStaffer = :id) AND (IdCoriers = Coriers.Id)) AND (Request = 1)' in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryAll()
+#2 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\db\ar\CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#3 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\models\Staffercoriers.php(70): CActiveRecord->findAll(Object(CDbCriteria))
+#4 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\views\couriers\StafferAddPack.php(25): Staffercoriers::getAssocList()
+#5 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CBaseController.php(126): require('D:\Program File...')
+#6 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\Program File...', Array, true)
+#7 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(869): CBaseController->renderFile('D:\Program File...', Array, true)
+#8 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(782): CController->renderPartial('StafferAddPack', Array, true)
+#9 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php(127): CController->render('StafferAddPack', Array)
+#10 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\actions\CInlineAction.php(49): CouriersController->actionStafferAddPack()
+#11 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#15 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#16 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#17 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(291): CFilterChain->run()
+#18 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(282): CController->run('StafferAddPack')
+#20 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(141): CWebApplication->runController('couriers/Staffe...')
+#21 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#22 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/index.php?r=couriers/StafferAddPack
+HTTP_REFERER=http://127.0.0.1:8080/index.php?r=Couriers/StafferPacks
+---
+2014/12/19 01:04:26 [error] [exception.CException] exception 'CException' with message 'CDbCriteria and its behaviors do not have a method or closure named "with".' in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\models\Staffercoriers.php(66): CComponent->__call('with', Array)
+#1 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\models\Staffercoriers.php(66): CDbCriteria->with('Coriers')
+#2 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\views\couriers\StafferAddPack.php(25): Staffercoriers::getAssocList()
+#3 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CBaseController.php(126): require('D:\Program File...')
+#4 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\Program File...', Array, true)
+#5 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(869): CBaseController->renderFile('D:\Program File...', Array, true)
+#6 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(782): CController->renderPartial('StafferAddPack', Array, true)
+#7 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php(127): CController->render('StafferAddPack', Array)
+#8 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\actions\CInlineAction.php(49): CouriersController->actionStafferAddPack()
+#9 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(291): CFilterChain->run()
+#16 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(282): CController->run('StafferAddPack')
+#18 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(141): CWebApplication->runController('couriers/Staffe...')
+#19 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/index.php?r=couriers/StafferAddPack
+HTTP_REFERER=http://127.0.0.1:8080/index.php?r=Couriers/StafferPacks
+---
+2014/12/19 01:05:22 [error] [exception.CException] exception 'CException' with message 'CDbCriteria and its behaviors do not have a method or closure named "with".' in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\models\Staffercoriers.php(66): CComponent->__call('with', Array)
+#1 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\models\Staffercoriers.php(66): CDbCriteria->with('Coriers')
+#2 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\views\couriers\StafferAddPack.php(25): Staffercoriers::getAssocList()
+#3 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CBaseController.php(126): require('D:\Program File...')
+#4 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\Program File...', Array, true)
+#5 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(869): CBaseController->renderFile('D:\Program File...', Array, true)
+#6 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(782): CController->renderPartial('StafferAddPack', Array, true)
+#7 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php(127): CController->render('StafferAddPack', Array)
+#8 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\actions\CInlineAction.php(49): CouriersController->actionStafferAddPack()
+#9 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(291): CFilterChain->run()
+#16 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(282): CController->run('StafferAddPack')
+#18 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(141): CWebApplication->runController('couriers/Staffe...')
+#19 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/index.php?r=couriers/StafferAddPack
+HTTP_REFERER=http://127.0.0.1:8080/index.php?r=Couriers/StafferPacks
+---
+2014/12/19 01:06:40 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'Id' in order clause is ambiguous. The SQL statement executed was: SELECT `t`.`Id` AS `t0_c0`, `t`.`IdStaffer` AS `t0_c1`, `t`.`IdCoriers` AS `t0_c2`, `t`.`Request` AS `t0_c3`, `Coriers`.`Id` AS `t1_c0`, `Coriers`.`Name` AS `t1_c1`, `Coriers`.`Lastname` AS `t1_c2`, `Coriers`.`Support` AS `t1_c3`, `Coriers`.`DOB` AS `t1_c4`, `Coriers`.`Sex` AS `t1_c5`, `Coriers`.`Street` AS `t1_c6`, `Coriers`.`Appartment` AS `t1_c7`, `Coriers`.`Zip` AS `t1_c8`, `Coriers`.`City` AS `t1_c9`, `Coriers`.`Country` AS `t1_c10`, `Coriers`.`DHL_Office` AS `t1_c11`, `Coriers`.`Email` AS `t1_c12`, `Coriers`.`Skype_ICQ` AS `t1_c13`, `Coriers`.`Phone` AS `t1_c14`, `Coriers`.`Scan_ID` AS `t1_c15`, `Coriers`.`Scan_Registration` AS `t1_c16`, `Coriers`.`Scan_Agreement` AS `t1_c17`, `Coriers`.`Start_Date` AS `t1_c18`, `Coriers`.`Finish_Date` AS `t1_c19`, `Coriers`.`Pay_Comment` AS `t1_c20`, `Coriers`.`Staff_Comment` AS `t1_c21`, `Coriers`.`Status` AS `t1_c22` FROM `staffercoriers` `t`  LEFT OUTER JOIN `couriers` `Coriers` ON (`t`.`IdCoriers`=`Coriers`.`Id`)  WHERE (((IdStaffer = :id) AND (IdCoriers = Coriers.Id)) AND (Request = 1)) ORDER BY Id ASC.
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\models\Staffercoriers.php (70)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\views\couriers\StafferAddPack.php (25)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (127)
+2014/12/19 01:06:40 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'Id' in order clause is ambiguous. The SQL statement executed was: SELECT `t`.`Id` AS `t0_c0`, `t`.`IdStaffer` AS `t0_c1`, `t`.`IdCoriers` AS `t0_c2`, `t`.`Request` AS `t0_c3`, `Coriers`.`Id` AS `t1_c0`, `Coriers`.`Name` AS `t1_c1`, `Coriers`.`Lastname` AS `t1_c2`, `Coriers`.`Support` AS `t1_c3`, `Coriers`.`DOB` AS `t1_c4`, `Coriers`.`Sex` AS `t1_c5`, `Coriers`.`Street` AS `t1_c6`, `Coriers`.`Appartment` AS `t1_c7`, `Coriers`.`Zip` AS `t1_c8`, `Coriers`.`City` AS `t1_c9`, `Coriers`.`Country` AS `t1_c10`, `Coriers`.`DHL_Office` AS `t1_c11`, `Coriers`.`Email` AS `t1_c12`, `Coriers`.`Skype_ICQ` AS `t1_c13`, `Coriers`.`Phone` AS `t1_c14`, `Coriers`.`Scan_ID` AS `t1_c15`, `Coriers`.`Scan_Registration` AS `t1_c16`, `Coriers`.`Scan_Agreement` AS `t1_c17`, `Coriers`.`Start_Date` AS `t1_c18`, `Coriers`.`Finish_Date` AS `t1_c19`, `Coriers`.`Pay_Comment` AS `t1_c20`, `Coriers`.`Staff_Comment` AS `t1_c21`, `Coriers`.`Status` AS `t1_c22` FROM `staffercoriers` `t`  LEFT OUTER JOIN `couriers` `Coriers` ON (`t`.`IdCoriers`=`Coriers`.`Id`)  WHERE (((IdStaffer = :id) AND (IdCoriers = Coriers.Id)) AND (Request = 1)) ORDER BY Id ASC' in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\db\ar\CActiveFinder.php(803): CDbCommand->queryAll()
+#2 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\db\ar\CActiveFinder.php(437): CJoinElement->runQuery(Object(CJoinQuery))
+#3 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\db\ar\CActiveFinder.php(68): CJoinElement->find(Object(CDbCriteria))
+#4 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\db\ar\CActiveRecord.php(1356): CActiveFinder->query(Object(CDbCriteria), true)
+#5 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\db\ar\CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#6 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\models\Staffercoriers.php(70): CActiveRecord->findAll(Object(CDbCriteria))
+#7 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\views\couriers\StafferAddPack.php(25): Staffercoriers::getAssocList()
+#8 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CBaseController.php(126): require('D:\Program File...')
+#9 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\Program File...', Array, true)
+#10 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(869): CBaseController->renderFile('D:\Program File...', Array, true)
+#11 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(782): CController->renderPartial('StafferAddPack', Array, true)
+#12 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php(127): CController->render('StafferAddPack', Array)
+#13 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\actions\CInlineAction.php(49): CouriersController->actionStafferAddPack()
+#14 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#17 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(291): CFilterChain->run()
+#21 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(282): CController->run('StafferAddPack')
+#23 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(141): CWebApplication->runController('couriers/Staffe...')
+#24 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#25 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/index.php?r=couriers/StafferAddPack
+HTTP_REFERER=http://127.0.0.1:8080/index.php?r=Couriers/StafferPacks
+---
+2014/12/19 01:18:24 [error] [exception.CException] exception 'CException' with message 'Property "Staffercoriers.Lastname" is not defined.' in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\db\ar\CActiveRecord.php(145): CComponent->__get('Lastname')
+#1 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\models\Staffercoriers.php(67): CActiveRecord->__get('Lastname')
+#2 [internal function]: Staffercoriers::{closure}(Object(Staffercoriers))
+#3 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\helpers\CHtml.php(2143): call_user_func(Object(Closure), Object(Staffercoriers))
+#4 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\helpers\CHtml.php(2081): CHtml::value(Object(Staffercoriers), Object(Closure))
+#5 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\models\Staffercoriers.php(68): CHtml::listData(Array, 'Id', Object(Closure))
+#6 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\views\couriers\StafferAddPack.php(25): Staffercoriers::getAssocList()
+#7 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CBaseController.php(126): require('D:\Program File...')
+#8 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\Program File...', Array, true)
+#9 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(869): CBaseController->renderFile('D:\Program File...', Array, true)
+#10 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(782): CController->renderPartial('StafferAddPack', Array, true)
+#11 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php(127): CController->render('StafferAddPack', Array)
+#12 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\actions\CInlineAction.php(49): CouriersController->actionStafferAddPack()
+#13 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#15 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#16 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#17 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#18 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#19 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(291): CFilterChain->run()
+#20 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(282): CController->run('StafferAddPack')
+#22 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(141): CWebApplication->runController('couriers/Staffe...')
+#23 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#24 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php(13): CApplication->run()
+#25 {main}
+REQUEST_URI=/index.php?r=couriers/StafferAddPack
+HTTP_REFERER=http://127.0.0.1:8080/index.php?r=Couriers/StafferPacks
+---
+2014/12/19 01:18:33 [error] [php] Use of undefined constant Lastname - assumed 'Lastname' (D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\models\Staffercoriers.php:67)
+Stack trace:
+#0 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\helpers\CHtml.php(2081): value()
+#1 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\models\Staffercoriers.php(68): listData()
+#2 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\views\couriers\StafferAddPack.php(25): getAssocList()
+#3 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CBaseController.php(126): require()
+#4 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CBaseController.php(95): CouriersController->renderInternal()
+#5 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(869): CouriersController->renderFile()
+#6 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(782): CouriersController->renderPartial()
+#7 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php(127): CouriersController->render()
+#8 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\actions\CInlineAction.php(49): CouriersController->actionStafferAddPack()
+#9 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(133): CouriersController->runAction()
+#11 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#13 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CInlineFilter.php(58): CouriersController->filterAccessControl()
+#14 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#15 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(291): CFilterChain->run()
+#16 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(265): CouriersController->runActionWithFilters()
+#17 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(282): CouriersController->run()
+#18 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#19 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=couriers/StafferAddPack
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\models\Staffercoriers.php (67)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\models\Staffercoriers.php (68)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\views\couriers\StafferAddPack.php (25)
+2014/12/19 01:18:41 [error] [php] Use of undefined constant Name - assumed 'Name' (D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\models\Staffercoriers.php:67)
+Stack trace:
+#0 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\helpers\CHtml.php(2081): value()
+#1 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\models\Staffercoriers.php(68): listData()
+#2 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\views\couriers\StafferAddPack.php(25): getAssocList()
+#3 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CBaseController.php(126): require()
+#4 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CBaseController.php(95): CouriersController->renderInternal()
+#5 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(869): CouriersController->renderFile()
+#6 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(782): CouriersController->renderPartial()
+#7 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php(127): CouriersController->render()
+#8 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\actions\CInlineAction.php(49): CouriersController->actionStafferAddPack()
+#9 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(133): CouriersController->runAction()
+#11 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#13 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CInlineFilter.php(58): CouriersController->filterAccessControl()
+#14 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#15 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(291): CFilterChain->run()
+#16 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(265): CouriersController->runActionWithFilters()
+#17 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(282): CouriersController->run()
+#18 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#19 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=couriers/StafferAddPack
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\models\Staffercoriers.php (67)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\models\Staffercoriers.php (68)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\views\couriers\StafferAddPack.php (25)
+2014/12/19 01:18:49 [error] [exception.CException] exception 'CException' with message 'Property "Staffercoriers.Name" is not defined.' in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\db\ar\CActiveRecord.php(145): CComponent->__get('Name')
+#1 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\models\Staffercoriers.php(67): CActiveRecord->__get('Name')
+#2 [internal function]: Staffercoriers::{closure}(Object(Staffercoriers))
+#3 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\helpers\CHtml.php(2143): call_user_func(Object(Closure), Object(Staffercoriers))
+#4 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\helpers\CHtml.php(2081): CHtml::value(Object(Staffercoriers), Object(Closure))
+#5 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\models\Staffercoriers.php(68): CHtml::listData(Array, 'Id', Object(Closure))
+#6 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\views\couriers\StafferAddPack.php(25): Staffercoriers::getAssocList()
+#7 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CBaseController.php(126): require('D:\Program File...')
+#8 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\Program File...', Array, true)
+#9 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(869): CBaseController->renderFile('D:\Program File...', Array, true)
+#10 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(782): CController->renderPartial('StafferAddPack', Array, true)
+#11 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php(127): CController->render('StafferAddPack', Array)
+#12 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\actions\CInlineAction.php(49): CouriersController->actionStafferAddPack()
+#13 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#15 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#16 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#17 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#18 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#19 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(291): CFilterChain->run()
+#20 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(282): CController->run('StafferAddPack')
+#22 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(141): CWebApplication->runController('couriers/Staffe...')
+#23 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#24 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php(13): CApplication->run()
+#25 {main}
+REQUEST_URI=/index.php?r=couriers/StafferAddPack
+HTTP_REFERER=http://127.0.0.1:8080/index.php?r=Couriers/StafferPacks
+---
+2014/12/19 01:19:47 [error] [exception.CException] exception 'CException' with message 'Property "Staffercoriers.Name" is not defined.' in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\db\ar\CActiveRecord.php(145): CComponent->__get('Name')
+#1 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\models\Staffercoriers.php(69): CActiveRecord->__get('Name')
+#2 [internal function]: Staffercoriers::{closure}(Object(Staffercoriers))
+#3 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\helpers\CHtml.php(2143): call_user_func(Object(Closure), Object(Staffercoriers))
+#4 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\helpers\CHtml.php(2081): CHtml::value(Object(Staffercoriers), Object(Closure))
+#5 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\models\Staffercoriers.php(70): CHtml::listData(Array, 'Id', Object(Closure))
+#6 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\views\couriers\StafferAddPack.php(25): Staffercoriers::getAssocList()
+#7 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CBaseController.php(126): require('D:\Program File...')
+#8 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\Program File...', Array, true)
+#9 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(869): CBaseController->renderFile('D:\Program File...', Array, true)
+#10 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(782): CController->renderPartial('StafferAddPack', Array, true)
+#11 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php(127): CController->render('StafferAddPack', Array)
+#12 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\actions\CInlineAction.php(49): CouriersController->actionStafferAddPack()
+#13 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#15 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#16 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#17 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#18 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#19 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(291): CFilterChain->run()
+#20 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(282): CController->run('StafferAddPack')
+#22 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(141): CWebApplication->runController('couriers/Staffe...')
+#23 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#24 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php(13): CApplication->run()
+#25 {main}
+REQUEST_URI=/index.php?r=couriers/StafferAddPack
+HTTP_REFERER=http://127.0.0.1:8080/index.php?r=Couriers/StafferPacks
+---
+2014/12/19 01:25:52 [error] [php] include(Goods.php): failed to open stream: No such file or directory (D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\YiiBase.php:427)
+Stack trace:
+#0 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php(117): spl_autoload_call()
+#1 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\actions\CInlineAction.php(49): CouriersController->actionStafferAddPack()
+#2 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(133): CouriersController->runAction()
+#4 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CInlineFilter.php(58): CouriersController->filterAccessControl()
+#7 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(291): CFilterChain->run()
+#9 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(265): CouriersController->runActionWithFilters()
+#10 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(282): CouriersController->run()
+#11 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=couriers/StafferAddPack
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (117)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/19 03:26:28 [warning] [application] Failed to set unsafe attribute "Id" of "Users".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\UsersController.php (81)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/19 03:26:28 [warning] [application] Failed to set unsafe attribute "Reg_Date" of "Users".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\UsersController.php (81)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/19 03:26:37 [warning] [application] Failed to set unsafe attribute "Id" of "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (187)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/19 03:27:25 [warning] [application] Failed to set unsafe attribute "Id" of "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/19 03:27:36 [warning] [application] Failed to set unsafe attribute "Id" of "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/19 03:28:39 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(282): CController->run('view')
+#8 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(141): CWebApplication->runController('couriers/view')
+#9 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=couriers/view&id=6
+HTTP_REFERER=http://127.0.0.1:8080/index.php?r=Couriers/Packs
+---
+2014/12/19 03:29:57 [warning] [application] Failed to set unsafe attribute "Id" of "Staffercoriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (59)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/19 03:34:15 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "admin".' in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php:878
+Stack trace:
+#0 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#1 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\SiteController.php(97): CController->render('admin', Array)
+#2 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(282): CController->run('index')
+#7 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#8 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=site/index
+HTTP_REFERER=http://127.0.0.1:8080/index.php?r=site/index
+---
+2014/12/19 03:36:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "update".' in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php:483
+Stack trace:
+#0 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(270): CController->missingAction('update')
+#1 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(282): CController->run('update')
+#2 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(141): CWebApplication->runController('site/update')
+#3 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=site/update&id=2
+HTTP_REFERER=http://127.0.0.1:8080/index.php?r=site/index
+---
+2014/12/19 03:38:24 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(282): CController->run('HideNews')
+#8 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(141): CWebApplication->runController('News/HideNews')
+#9 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=News/HideNews
+HTTP_REFERER=http://127.0.0.1:8080/index.php?r=site/index
+---
+2014/12/19 03:38:25 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(282): CController->run('HideNews')
+#8 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(141): CWebApplication->runController('News/HideNews')
+#9 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=News/HideNews
+HTTP_REFERER=http://127.0.0.1:8080/index.php?r=site/index
+---
+2014/12/19 03:38:26 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(282): CController->run('HideNews')
+#8 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(141): CWebApplication->runController('News/HideNews')
+#9 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=News/HideNews
+HTTP_REFERER=http://127.0.0.1:8080/index.php?r=site/index
+---
+2014/12/19 03:40:30 [warning] [application] Failed to set unsafe attribute "Id" of "Users".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\UsersController.php (81)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/19 03:40:30 [warning] [application] Failed to set unsafe attribute "Reg_Date" of "Users".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\UsersController.php (81)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/19 03:42:35 [warning] [application] Failed to set unsafe attribute "Id" of "Staffercoriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (59)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/19 03:42:48 [warning] [application] Failed to set unsafe attribute "Id" of "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)

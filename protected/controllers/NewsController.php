@@ -13,6 +13,10 @@ class NewsController extends Controller
 	{
 		return array(
 			array('allow',
+					'actions'=>array('HideNews'),
+					'roles'=> array('Support', 'Staffer'),
+					),
+			array('allow',
 				'actions'=>array('view','create','update','delete','admin'),
 				'roles'=> array('Admin'),
 			),
@@ -23,14 +27,12 @@ class NewsController extends Controller
 	}
 	public function actionHideNews()
 	{
-		if(isset($_POST['Id']) && isset($_POST['Status']))
+		if(isset($_POST['Id']))
 		{
-			$id = $_POST['Id'];
-			$status = $_POST['Status'];
-			$model = Packs::model()->findByPk($id);
-			$attributes = $model->attributes;
-			$attributes['Status'] = $status;
-			$model->attributes = $attributes;
+			$IdNews = $_POST['Id'];
+			$IdUsers = Yii::app()->user->getId();
+			$model = new Newsshown;
+			$model->attributes = array('IdNews'=>$IdNews, 'IdUsers'=>$IdUsers);
 			$model->save();
 		}
 	}

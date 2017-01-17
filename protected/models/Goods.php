@@ -1,4 +1,5 @@
 <?php
+
 /**
  * This is the model class for table "goods".
  *
@@ -19,6 +20,7 @@ class Goods extends CActiveRecord
 	{
 		return 'goods';
 	}
+
 	/**
 	 * @return array validation rules for model attributes.
 	 */
@@ -36,6 +38,7 @@ class Goods extends CActiveRecord
 			array('Id, Merchandise, Price, Count, Shop_link, PacksId', 'safe', 'on'=>'search'),
 		);
 	}
+
 	/**
 	 * @return array relational rules.
 	 */
@@ -46,6 +49,7 @@ class Goods extends CActiveRecord
 		return array(
 		);
 	}
+
 	/**
 	 * @return array customized attribute labels (name=>label)
 	 */
@@ -60,6 +64,7 @@ class Goods extends CActiveRecord
 			'PacksId' => 'Packs',
 		);
 	}
+
 	/**
 	 * Retrieves a list of models based on the current search/filter conditions.
 	 *
@@ -89,6 +94,7 @@ class Goods extends CActiveRecord
 			'criteria'=>$criteria,
 		));
 	}
+
 	/**
 	 * Returns the static model of the specified AR class.
 	 * Please note that you should have this exact method in all your CActiveRecord descendants!

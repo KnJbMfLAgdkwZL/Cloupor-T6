@@ -25,11 +25,11 @@
 				{
 					$arr[] = array('label'=>'Home', 'url'=>array('/site/index'));
 					$arr[] = array('label'=>'Users', 'url'=>array('/Users/admin'));
-					$arr[] = array('label'=>'Couriers', 'url'=>array('/Couriers/index'));
+					$arr[] = array('label'=>'Couriers', 'url'=>array('/Couriers/admin'));
 					$arr[] = array('label'=>'Request', 'url'=>array('/Couriers/Request'));
 					$arr[] = array('label'=>'Packs', 'url'=>array('/Couriers/Packs'));
 					$arr[] = array('label'=>'Settings', 'url'=>array('/News/admin'));
-					$arr[] = array('label'=>'Skup', 'url'=>array('/Skup/index'));
+					$arr[] = array('label'=>'Skup', 'url'=>array('/Skup/admin'));
 					$arr[] = array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest);
 				}
 				if($role == 'Support')

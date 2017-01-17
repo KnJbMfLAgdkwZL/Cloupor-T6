@@ -51,4 +51,18 @@ class Staffercoriers extends CActiveRecord
 	{
 		return parent::model($className);
 	}
+	public static function getAssocList()
+	{
+		$id = Yii::app()->user->getId();
+		$criteria = new CDbCriteria();
+		$criteria->addCondition("IdStaffer = :id");
+		$criteria->addCondition("IdCoriers = Coriers.Id");
+		$criteria->addCondition("Request = 1");
+		$criteria->with = array('Coriers');
+		$criteria->params = array('id' => $id );
+		$models = Staffercoriers::model()->findAll($criteria);
+		return CHtml::listData($models, 'Coriers.Id', function($model) {
+				return CHtml::encode($model->Coriers->Lastname.' '.$model->Coriers->Name);
+		});
+	}
 }

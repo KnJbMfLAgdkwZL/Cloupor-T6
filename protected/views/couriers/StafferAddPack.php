@@ -21,9 +21,10 @@
 	<div class="row">
 	<?php
 		echo $form->labelEx($model,'Courier');
+
 		$list = Staffercoriers::model()->getAssocList();
 		echo CHtml::dropDownList('Packs[Courier]', 0, $list);
-		echo $form->error($model,'Sex');
+		echo $form->error($model,'Courier');
 	?>
 	</div>
 	<div class="row">

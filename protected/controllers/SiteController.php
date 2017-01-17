@@ -69,7 +69,29 @@ class SiteController extends Controller
 			}
 			elseif($role == 'Staffer')//3
 			{
-				$this->render('indexStaffer');
+				$role = 3;
+				$dataReader = Yii::app()->db->createCommand($sql);
+				$dataReader->bindParam(":id", $id, PDO::PARAM_STR);
+				$dataReader->bindParam(":role", $role, PDO::PARAM_STR);
+				$news = $dataReader->queryAll();
+				$model = new CArrayDataProvider($news, array(
+					'keyField'=>'Id',
+					'sort'=>array('attributes'=>array('Id', 'Header', 'Body', 'Date', 'OnlyFo')),
+					'pagination'=>array('pageSize'=>10)));
+
+				$now = new Skup('search');
+				$now->unsetAttributes();
+				$now->attributes = array('Skupforever'=> 0);
+				if(isset($_GET['Skup']))
+					$now->attributes = $_GET['Skup'];
+
+				$forever = new Skup('search');
+				$forever->unsetAttributes();
+				$forever->attributes = array('Skupforever'=> 1);
+				if(isset($_GET['Skup']))
+					$forever->attributes = $_GET['Skup'];
+
+				$this->render('indexStaffer', array('model'=>$model,'now'=>$now,'forever'=>$forever,));
 			}
 		}
 	}
