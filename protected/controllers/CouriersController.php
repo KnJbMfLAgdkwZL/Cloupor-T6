@@ -18,7 +18,7 @@ class CouriersController extends Controller
 				'roles'=> array('Support'),
 				),
 			array('allow',
-					'actions'=>array('index','StafferCouriers', 'StafferPacks', 'StafferAddPack',
+					'actions'=>array('StafferCouriers', 'StafferPacks', 'StafferAddPack',
 						'StafferRentalsCourier', 'StaferGetCourier'),
 				'roles'=> array('Staffer'),
 				),
@@ -273,13 +273,6 @@ class CouriersController extends Controller
 		// if AJAX request (triggered by deletion via admin grid view), we should not redirect the browser
 		if(!isset($_GET['ajax']))
 			$this->redirect(isset($_POST['returnUrl']) ? $_POST['returnUrl'] : array('admin'));
-	}
-	public function actionIndex()
-	{
-		$dataProvider = new CActiveDataProvider('Couriers');
-		$this->render('index',array(
-			'dataProvider'=>$dataProvider,
-		));
 	}
 	public function actionAdmin()
 	{

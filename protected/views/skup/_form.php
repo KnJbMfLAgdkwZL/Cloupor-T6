@@ -7,15 +7,19 @@
 	// See class documentation of CActiveForm for details on this.
 	'enableAjaxValidation'=>false,
 )); ?>
-	<p class="note">Fields with <span class="required">*</span> are required.</p>
+	<p class="note">
+		<?= Yii::t('main-ui', 'Fields with'); ?>
+		<span class="required">*</span>
+		<?= Yii::t('main-ui', 'are required.'); ?>
+	</p>
 	<?php echo $form->errorSummary($model); ?>
 	<div class="row">
-		<?php echo $form->labelEx($model,'Merchandise'); ?>
+		<?php echo $form->labelEx($model,'Merchandise',array('label'=>Yii::t('main-ui', 'Merchandise'))); ?>
 		<?php echo $form->textArea($model,'Merchandise',array('rows'=>6, 'cols'=>50)); ?>
 		<?php echo $form->error($model,'Merchandise'); ?>
 	</div>
 	<div class="row">
-		<?php echo $form->labelEx($model,'Comment'); ?>
+		<?php echo $form->labelEx($model,'Comment',array('label'=>Yii::t('main-ui', 'Comment'))); ?>
 		<?php echo $form->textArea($model,'Comment',array('rows'=>6, 'cols'=>50)); ?>
 		<?php echo $form->error($model,'Comment'); ?>
 	</div>
@@ -36,14 +40,14 @@
 	</div>
 	<div class="row">
 		<?php
-			echo $form->labelEx($model, 'Skupforever');
+			echo $form->labelEx($model, 'Skupforever', array('label'=>Yii::t('main-ui', 'Skup forever')));
 			$status = array('No', 'Yes');
 			echo CHtml::dropDownList('Skup[Skupforever]', $model['Skupforever'], $status);
 			echo $form->error($model,'Status');
 		?>
 	</div>
 	<div class="row buttons">
-		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
+		<?php echo CHtml::submitButton($model->isNewRecord ? Yii::t('main-ui', 'Create') : Yii::t('main-ui','Save')); ?>
 	</div>
 <?php $this->endWidget(); ?>
 </div><!-- form -->

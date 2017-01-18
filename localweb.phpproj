@@ -18,10 +18,6 @@
 }
 "Files"
 {
-    "assets"
-    {
-    "ProjRelPath" = "T"
-    }
     "assets\\25d13e51"
     {
     "ProjRelPath" = "T"
@@ -522,6 +518,10 @@
     {
     "ProjRelPath" = "T"
     }
+    "protected\\components\\Languages.php"
+    {
+    "ProjRelPath" = "T"
+    }
     "protected\\components\\PhpAuthManager.php"
     {
     "ProjRelPath" = "T"
@@ -599,6 +599,14 @@
     "ProjRelPath" = "T"
     }
     "protected\\messages"
+    {
+    "ProjRelPath" = "T"
+    }
+    "protected\\messages\\ru"
+    {
+    "ProjRelPath" = "T"
+    }
+    "protected\\messages\\ru\\main-ui.php"
     {
     "ProjRelPath" = "T"
     }
@@ -706,10 +714,6 @@
     {
     "ProjRelPath" = "T"
     }
-    "protected\\views\\couriers\\_view.php"
-    {
-    "ProjRelPath" = "T"
-    }
     "protected\\views\\couriers\\admin.php"
     {
     "ProjRelPath" = "T"
@@ -719,10 +723,6 @@
     "ProjRelPath" = "T"
     }
     "protected\\views\\couriers\\create.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "protected\\views\\couriers\\index.php"
     {
     "ProjRelPath" = "T"
     }
@@ -863,10 +863,6 @@
     "ProjRelPath" = "T"
     }
     "protected\\views\\users\\_form.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "protected\\views\\users\\_view.php"
     {
     "ProjRelPath" = "T"
     }

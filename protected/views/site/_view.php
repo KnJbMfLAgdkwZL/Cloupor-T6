@@ -7,6 +7,7 @@ echo "<div class='view news$id'>";
 echo	"<h3>$head</h3>";
 echo	"<div>$date</div>", '<br/>';
 echo	"<div>$head</div>", '<br/>';
-echo "<span style='border:1px solid black' id='$id' class='Hide'><b>Hide</b></span>";
+$str = Yii::t('main-ui','Hide');
+echo "<span style='border:1px solid black' id='$id' class='Hide'><b>$str</b></span>";
 echo "</div>";
 ?>

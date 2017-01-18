@@ -7,7 +7,8 @@ return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'',
 	// preloading 'log' component
-	'preload'=>array('log'),
+	//'preload'=>array('log'),
+	'preload'=>array('log','languages',),
 	// autoloading model and component classes
 	'import'=>array(
 		'application.models.*',
@@ -32,6 +33,14 @@ return array(
 			'loginUrl' => array('/site/login'),
 			'class'=>'WebUser',
 		),
+
+		'languages'=>array(
+			'class'=>'Languages',
+			'useLanguage'=>true,
+			'autoDetect'=>true,
+			//'languages'=>array('ru',),//'en','ro',
+			'languagesTitles'=>array('ru'=>'Russian','en'=>'English','ro'=>'Romanian'),
+			),
 
 		'authManager' => array(
 			// Будем использовать свой менеджер авторизации

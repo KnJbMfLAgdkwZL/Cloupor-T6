@@ -6,16 +6,23 @@ rel="stylesheet" type="text/css" />
 	font-family: 'PT Sans', serif;
 }
 </style>
-
-<h1>Packs</h1>
 <?php
+$str = Yii::t('main-ui','Packs');
+echo "<h1>$str</h1>";
 $this->widget('zii.widgets.grid.CGridView', array(
 	'id' => 'couriers-grid',
 	'dataProvider' => $model,
 	'columns' => array(
-				'Id',
+				array(
+					'name' => 'Id',
+					'header' => Yii::t('main-ui','Id'),
+					'value' =>'CHtml::encode($data->Id)',
+					'type' => 'html',
+					'filter'=> false,
+					),
 				array(
 					'name' => 'Staffer',
+					'header' => Yii::t('main-ui','Staffer'),
 					'type' => 'raw',
 					'value' => function($data)
 					{
@@ -28,9 +35,16 @@ $this->widget('zii.widgets.grid.CGridView', array(
 						return CHtml::encode('');
 					}
 					),
-				'Date',
+				array(
+					'name' => 'Date',
+					'header' => Yii::t('main-ui','Date'),
+					'value' =>'CHtml::encode($data->Date)',
+					'type' => 'html',
+					'filter'=> false,
+					),
 				array(
 					'name' => 'Corier',
+					'header' => Yii::t('main-ui','Coriers'),
 					'type' => 'raw',
 					'value' => function($data)
 					{
@@ -43,9 +57,16 @@ $this->widget('zii.widgets.grid.CGridView', array(
 						return CHtml::encode('');
 					}
 					),
-				'Skup_reShip',
+				array(
+					'name' => 'Skup_reShip',
+					'header' => Yii::t('main-ui','Reship'),
+					'value' =>'CHtml::encode($data->Skup_reShip)',
+					'type' => 'html',
+					'filter'=> false,
+					),
 				array(
 					'name' => 'Summ',
+					'header' => Yii::t('main-ui','Summa'),
 					'type' => 'raw',
 					'value' => function($data)
 					{
@@ -61,9 +82,6 @@ $this->widget('zii.widgets.grid.CGridView', array(
 						}
 						return $str;
 					},),
-
-
-
 				)
 			));
 ?>

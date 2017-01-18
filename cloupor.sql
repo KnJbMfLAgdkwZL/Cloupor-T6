@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Хост: 127.0.0.1
--- Время создания: Дек 19 2014 г., 03:46
+-- Время создания: Дек 22 2014 г., 10:41
 -- Версия сервера: 5.6.15-log
 -- Версия PHP: 5.5.8
 
@@ -141,7 +141,7 @@ CREATE TABLE IF NOT EXISTS `newsshown` (
   `IdUsers` int(11) NOT NULL,
   PRIMARY KEY (`Id`),
   KEY `IdNews` (`IdNews`,`IdUsers`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=12 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=13 ;
 
 --
 -- Дамп данных таблицы `newsshown`
@@ -269,7 +269,7 @@ CREATE TABLE IF NOT EXISTS `users` (
   PRIMARY KEY (`Id`),
   UNIQUE KEY `Login` (`Login`),
   KEY `Role` (`Role`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=30 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=32 ;
 
 --
 -- Дамп данных таблицы `users`

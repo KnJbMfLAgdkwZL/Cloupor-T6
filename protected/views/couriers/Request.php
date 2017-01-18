@@ -1,11 +1,13 @@
-<h1>Staffers Request new Courier</h1>
 <?php
+$str = Yii::t('main-ui','Staffers Request new Courier');
+echo "<h1>$str</h1>";
 $this->widget('zii.widgets.grid.CGridView', array(
 	'id' => 'couriers-grid',
 	'dataProvider' => $model,
 	'columns' => array(
 		array(
 			'name' => 'Corier',
+			'header' => Yii::t('main-ui','Courier'),
 			'type' => 'raw',
 			'value' => function($data)
 			{
@@ -20,6 +22,7 @@ $this->widget('zii.widgets.grid.CGridView', array(
 		),
 		array(
 			'name' => 'Address',
+			'header' => Yii::t('main-ui','Address'),
 			'type' => 'raw',
 			'value' => function($data)
 			{
@@ -30,6 +33,7 @@ $this->widget('zii.widgets.grid.CGridView', array(
 		),
 		array(
 			'name' => 'Corier Support',
+			'header' => Yii::t('main-ui','Corier Support'),
 			'type' => 'raw',
 			'value' => function($data)
 			{
@@ -44,6 +48,7 @@ $this->widget('zii.widgets.grid.CGridView', array(
 		),
 		array(
 			'name' => 'Corier Status',
+			'header' => Yii::t('main-ui','Corier Status'),
 			'type' => 'raw',
 			'value' => function($data)
 			{
@@ -58,6 +63,7 @@ $this->widget('zii.widgets.grid.CGridView', array(
 		),
 		array(
 			'name' => 'Request from',
+			'header' => Yii::t('main-ui','Request from'),
 			'type' => 'raw',
 			'value' => function($data)
 			{
@@ -72,6 +78,7 @@ $this->widget('zii.widgets.grid.CGridView', array(
 		),
 		array(
 			'name' => 'Set Request',
+			'header' => Yii::t('main-ui','Set Request'),
 			'type' => 'raw',
 			'value' => function($data)
 			{

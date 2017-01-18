@@ -1,6 +1,5 @@
 <?php
 	$this->pageTitle=Yii::app()->name . ' Login';
-	
 ?>
 <div class="form">
 	<?php
@@ -15,13 +14,13 @@
 	?>
 	<div class="row">
 		<?php
-			echo $form->textField($model, 'username', array('placeholder'=>'Username'));
+			echo $form->textField($model, 'username', array('placeholder'=>Yii::t('main-ui','Username')));
 			echo $form->error($model, 'username');
 		?>
 	</div>
 	<div class="row">
 		<?php
-			echo $form->passwordField($model,'password', array('placeholder'=>'Password'));
+			echo $form->passwordField($model,'password', array('placeholder'=>Yii::t('main-ui','Password')));
 			echo $form->error($model,'password');
 		?>
 	</div>
@@ -34,7 +33,7 @@
 	</div>
 	<div class="row buttons">
 		<?php
-			echo CHtml::submitButton('Login');
+			echo CHtml::submitButton(Yii::t('main-ui','Login'));
 		?>
 	</div>
 	<?php

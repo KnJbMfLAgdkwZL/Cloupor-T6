@@ -6,10 +6,9 @@ rel="stylesheet" type="text/css" />
 	font-family: 'PT Sans', serif;
 }
 </style>
-
-<h1>Staffer info</h1>
-<h2><?php echo $name; ?></h2>
 <?php
+$str = Yii::t('main-ui','Staffer Information');
+echo "<h1>$str $name</h1>";
 $this->widget('zii.widgets.grid.CGridView', array(
 	'id'=>'couriers-grid',
 	'dataProvider'=> $model,
@@ -17,6 +16,7 @@ $this->widget('zii.widgets.grid.CGridView', array(
 		array(
 			array(
 				'name'=>'Id',
+				'header'=>Yii::t('main-ui','Id'),
 				'type'=>'raw',
 				'value' =>function($data)
 				{
@@ -26,12 +26,14 @@ $this->widget('zii.widgets.grid.CGridView', array(
 				},),
 			array(
 				'name' => 'Date',
+				'header'=>Yii::t('main-ui','Date'),
 				'value' =>'CHtml::encode($data->Date)',
 				'type' => 'html',
 				'filter'=> false,
 				),
 			array(
 				'name'=>'Courier',
+				'header'=>Yii::t('main-ui','Courier'),
 				'type'=>'raw',
 				'value' =>function($data)
 				{
@@ -41,24 +43,28 @@ $this->widget('zii.widgets.grid.CGridView', array(
 				},),
 			array(
 				'name' => 'Track',
+				'header'=>Yii::t('main-ui','Track'),
 				'value' =>'CHtml::encode($data->Track)',
 				'type' => 'html',
 				'filter'=> false,
 				),
 			array(
 				'name' => 'Comment',
+				'header'=>Yii::t('main-ui','Comment'),
 				'value' =>'CHtml::encode($data->Comment)',
 				'type' => 'html',
 				'filter'=> false,
 				),
 			array(
 				'name' => 'Skup_reShip',
+				'header'=>Yii::t('main-ui','Reship'),
 				'value' =>'CHtml::encode($data->Skup_reShip)',
 				'type' => 'html',
 				'filter'=> false,
 				),
 			array(
 				'name' => 'Summ',
+				'header'=>Yii::t('main-ui','Summa'),
 				'type' => 'raw',
 				'value' => function($data)
 				{
@@ -76,6 +82,7 @@ $this->widget('zii.widgets.grid.CGridView', array(
 				},),
 			array(
 				'name'=>'Status',
+				'header'=>Yii::t('main-ui','Status'),
 				'type'=>'raw',
 				'value' =>
 					function($data)

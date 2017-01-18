@@ -19,6 +19,12 @@ class SiteController extends Controller
 				$this->render('error', $error);
 		}
 	}
+	public function actionChangeLanguage($Lang)
+	{
+		Yii::app()->session['language'] = $Lang;
+		//$this->redirect(Yii::app()->homeUrl);
+		$this->redirect($_SERVER['HTTP_REFERER']);
+	}
 	public function actionIndex()
 	{
 		$model = new LoginForm;

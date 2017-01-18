@@ -1,7 +1,6 @@
 <?php
 $this->menu=array(
-	array('label'=>'List Couriers', 'url'=>array('index')),
-	array('label'=>'Create Couriers', 'url'=>array('create')),
+	array('label'=>Yii::t('main-ui','Create Couriers'), 'url'=>array('create')),
 );
 Yii::app()->clientScript->registerScript('search', "
 $('.search-button').click(function(){
@@ -15,9 +14,9 @@ $('.search-form form').submit(function(){
 	return false;
 });
 ");
-?>
-<h1>Manage Couriers</h1>
-<?php echo CHtml::link('Advanced Search','#',array('class'=>'search-button')); ?>
+$str = Yii::t('main-ui','Manage Couriers');
+echo "<h1>$str</h1>";
+echo CHtml::link(Yii::t('main-ui','Advanced Search'),'#',array('class'=>'search-button')); ?>
 <div class="search-form" style="display:none">
 <?php $this->renderPartial('_search',array(
 	'model'=>$model,
@@ -28,11 +27,27 @@ $('.search-form form').submit(function(){
 	'dataProvider'=>$model->search(),
 	'filter'=>$model,
 	'columns'=>array(
-		'Id',
-		'Name',
-		'Lastname',
+		array(
+			'name' => 'Id',
+			'header' => Yii::t('main-ui','Id'),
+			'value' =>'CHtml::encode($data->Id)',
+			'type' => 'html',
+			),
+		array(
+			'name' => 'Name',
+			'header' => Yii::t('main-ui','Name'),
+			'value' =>'CHtml::encode($data->Name)',
+			'type' => 'html',
+			),
+		array(
+			'name' => 'Lastname',
+			'header' => Yii::t('main-ui','Lastname'),
+			'value' =>'CHtml::encode($data->Lastname)',
+			'type' => 'html',
+			),
 		array(
 			'name'=>'Support',
+			'header' => Yii::t('main-ui','Support'),
 			'type'=>'raw',
 			'filter'=> false,
 			'value' =>function($data)
@@ -48,23 +63,23 @@ $('.search-form form').submit(function(){
 					return CHtml::encode('');
 				}
 			},),
-		//'DOB',
 		array(
 			'name' => 'DOB',
+			'header' => Yii::t('main-ui','Date Of Birth'),
 			'value' =>'CHtml::encode(date("m/d/Y", $data->DOB))',
 			'type' => 'html',
 			'filter'=> false,
 			),
-		//'Sex',
 		array(
 			'name' => 'Sex',
+			'header' => Yii::t('main-ui','Sex'),
 			'value' =>'CHtml::encode($data->Sex==0 ? "Women" : "Man" )',
 			'type' => 'html',
 			'filter'=> false,
 			),
-
 		array(
 			'name'=>'Status',
+			'header' => Yii::t('main-ui','Status'),
 			'type'=>'raw',
 			'filter'=> false,
 			'value' =>
@@ -75,29 +90,11 @@ $('.search-form form').submit(function(){
 			},
 			'cssClassExpression' => '"StatusSelected"',
 			),
-/*		'Street',
-		'Appartment',
-		'Zip',
-		'City',
-		'Country',
-		'DHL_Office',
-		'Email',
-		'Skype_ICQ',
-		'Phone',
-		'Scan_ID',
-		'Scan_Registration',
-		'Scan_Agreement',
-		'Start_Date',
-		'Finish_Date',
-		'Pay_Comment',
-		'Staff_Comment',
-		'Status',				*/
 		array(
 			'class'=>'CButtonColumn',
 		),
 	),
 ));
-
 Yii::app()->clientScript->registerScript('sel_status', "
 	$('.StatusSelected > select').change(function()
 	{
@@ -113,5 +110,4 @@ Yii::app()->clientScript->registerScript('sel_status', "
         });
 	});
 ");
-
 ?>

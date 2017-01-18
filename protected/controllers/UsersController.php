@@ -79,9 +79,8 @@ class UsersController extends Controller
 		{
 			$model->attributes = $_POST['Users'];
 			$model->attributes = $this->SafePassword($model->attributes);
-
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->Id));
+				$this->redirect(array('admin','id'=>$model->Id));
 			else
 			{
 				$arr = $model->attributes;
@@ -89,9 +88,7 @@ class UsersController extends Controller
 				$model->attributes = $arr;
 			}
 		}
-		$this->render('create',array(
-			'model'=>$model,
-		));
+		$this->render('create',array('model'=>$model));
 	}
 	public function SafePassword($attributes)
 	{
@@ -117,7 +114,7 @@ class UsersController extends Controller
 			$model->attributes = $_POST['Users'];
 			$model->attributes = $this->SafePassword($model->attributes);
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->Id));
+				$this->redirect(array('admin','id'=>$model->Id));
 		}
 		$this->render('update',array(
 			'model'=>$model,

@@ -1,9 +1,8 @@
 <?php
 $this->menu=array(
-	array('label'=>'Manage Users', 'url'=>array('admin')),
+	array('label'=>Yii::t('main-ui','Manage Users'), 'url'=>array('admin')),
 );
-?>
-<h1>Create Users</h1>
-<?php
-	$this->renderPartial('_form', array('model'=>$model));
+$str = Yii::t('main-ui', 'Create Users');
+echo "<h1>$str</h1>";
+$this->renderPartial('_form', array('model'=>$model));
 ?>

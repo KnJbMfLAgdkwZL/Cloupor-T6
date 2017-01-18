@@ -1,6 +1,5 @@
 <?php
 $this->menu=array(
-	array('label'=>'List Couriers', 'url'=>array('index')),
 	array('label'=>'Create Couriers', 'url'=>array('create')),
 	array('label'=>'Update Couriers', 'url'=>array('update', 'id'=>$model->Id)),
 	array('label'=>'Delete Couriers', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->Id),'confirm'=>'Are you sure you want to delete this item?')),
@@ -129,4 +128,3 @@ $this->menu=array(
 			},),
 	),
 )); ?>
-

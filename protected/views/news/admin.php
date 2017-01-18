@@ -1,6 +1,6 @@
 <?php
 $this->menu=array(
-	array('label'=>'Create News', 'url'=>array('create')),
+	array('label'=>Yii::t('main-ui','Create News'), 'url'=>array('create')),
 );
 Yii::app()->clientScript->registerScript('search', "
 $('.search-button').click(function(){
@@ -12,17 +12,17 @@ $('.search-form form').submit(function(){
 		data: $(this).serialize()
 	});
 	return false;
-});
-");
-?>
-<h1>Manage News</h1>
-<?php $this->widget('zii.widgets.grid.CGridView', array(
+});");
+$str = Yii::t('main-ui','Manage News');
+echo "<h1>$str</h1>";
+$this->widget('zii.widgets.grid.CGridView', array(
 	'id'=>'news-grid',
 	'dataProvider'=>$model->search(),
 	'filter'=>$model,
 	'columns'=>array(
 		array(
 			'name'=>'Header',
+			'header' => Yii::t('main-ui','Header'),
 			'type'=>'raw',
 			'value' =>function($data)
 			{
@@ -37,6 +37,7 @@ $('.search-form form').submit(function(){
 			},),
 		array(
 			'name'=>'Body',
+			'header' => Yii::t('main-ui','Body'),
 			'type'=>'raw',
 			'value' =>function($data)
 			{
@@ -49,9 +50,15 @@ $('.search-form form').submit(function(){
 				}
 				return CHtml::encode($str);
 			},),
-		'Date',
+		array(
+			'name' => 'Date',
+			'header' => Yii::t('main-ui','Date'),
+			'value' =>'CHtml::encode($data->Date)',
+			'type' => 'html',
+			),
 		array(
 			'name'=>'OnlyFor',
+			'header' => Yii::t('main-ui','Only For'),
 			'type'=>'raw',
 			'filter'=> false,
 			'value' =>function($data)
