@@ -1,19 +1,60 @@
-<h1>Staffer Rentals Courier</h1>
+<h1><?= Yii::t('main-ui','Staffer, Rentals Courier'); ?></h1>
 <?php
 $this->widget('zii.widgets.grid.CGridView', array(
 	'id'=>'couriers-grid',
 	'dataProvider'=> $model,
 	'columns'=>array(
-				'Id',
-				'Country',
-				'Zip',
-				'City',
-				'Street',
-				'Appartment',
-				'Name',
-				'Lastname',
+				array(
+					'name' => 'Id',
+					'header' => Yii::t('main-ui','Id'),
+					'value' =>'CHtml::encode($data["Id"])',
+					'type' => 'html',
+					),
+				array(
+					'name' => 'Country',
+					'header' => Yii::t('main-ui','Country'),
+					'value' =>'CHtml::encode($data["Country"])',
+					'type' => 'html',
+					),
+				array(
+					'name' => 'Zip',
+					'header' => Yii::t('main-ui','Zip'),
+					'value' =>'CHtml::encode($data["Zip"])',
+					'type' => 'html',
+					),
+				array(
+					'name' => 'City',
+					'header' => Yii::t('main-ui','City'),
+					'value' =>'CHtml::encode($data["City"])',
+					'type' => 'html',
+					),
+				array(
+					'name' => 'Street',
+					'header' => Yii::t('main-ui','Street'),
+					'value' =>'CHtml::encode($data["Street"])',
+					'type' => 'html',
+					),
+				array(
+					'name' => 'Appartment',
+					'header' => Yii::t('main-ui','Appartment'),
+					'value' =>'CHtml::encode($data["Appartment"])',
+					'type' => 'html',
+					),
+				array(
+					'name' => 'Name',
+					'header' => Yii::t('main-ui','Name'),
+					'value' =>'CHtml::encode($data["Name"])',
+					'type' => 'html',
+					),
+				array(
+					'name' => 'Lastname',
+					'header' => Yii::t('main-ui','Lastname'),
+					'value' =>'CHtml::encode($data["Lastname"])',
+					'type' => 'html',
+					),
 				array(
 					'name'=>'Start_Date',
+					'header' => Yii::t('main-ui','Start Date'),
 					'type'=>'raw',
 					'value' =>function($data)
 					{
@@ -21,6 +62,7 @@ $this->widget('zii.widgets.grid.CGridView', array(
 					}),
 				array(
 					'name'=>'Packs',
+					'header' => Yii::t('main-ui','Packs'),
 					'type'=>'raw',
 					'value' =>function($data)
 					{
@@ -28,6 +70,7 @@ $this->widget('zii.widgets.grid.CGridView', array(
 					}),
 				array(
 					'name'=>'Status',
+					'header' => Yii::t('main-ui','Status'),
 					'type'=>'raw',
 					'value' =>function($data)
 					{
@@ -43,6 +86,7 @@ $this->widget('zii.widgets.grid.CGridView', array(
 					}),
 				array(
 					'name'=>'Finish_Date',
+					'header' => Yii::t('main-ui','Finish Date'),
 					'type'=>'raw',
 					'value' =>function($data)
 					{
@@ -51,6 +95,7 @@ $this->widget('zii.widgets.grid.CGridView', array(
 
 				array(
 					'name'=>'Staff_Comment',
+					'header' => Yii::t('main-ui','Staff Comment'),
 					'type'=>'raw',
 					'value' =>function($data)
 					{
@@ -59,6 +104,7 @@ $this->widget('zii.widgets.grid.CGridView', array(
 
 					array(
 					'name'=>'Rentals Courier',
+					'header' => Yii::t('main-ui','Rentals Courier'),
 					'type'=>'raw',
 					'value' =>
 					function($data)

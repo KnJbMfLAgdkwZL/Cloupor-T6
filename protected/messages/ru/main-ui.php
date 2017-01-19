@@ -98,6 +98,25 @@ return array
 		'Corier Status' => 'Статус Курьера',
 		'Request from' => 'Запрос от',
 		'Set Request' => 'Установить Запрос',
+		'Staffer, Add Pack' => 'Стафер, Добавить Пак',
+		'Goods' => 'Товары',
+		'Total Sum' => 'Общая сумма',
+
+		'Merchandise' => 'Товар',
+		'Price' => 'Цена',
+		'Count' => 'Количество',
+		'Shop link' => 'Ссылка магазина',
+		'More Merchandise' => 'Добавить товар',
+		'Staffer, My couriers' => 'Стафер, Мои курьеры',
+		'Rentals courier' => 'Добавить курьера',
+		'Add pack' => 'Добавить пак',
+		'Staffer, Rentals Courier' => 'Стафер, выбор Курьера',
+		'Info' => 'Инфо',
+		'View Couriers' => 'Просмотреть Курьера',
+		'Update Couriers' => 'Изменть Курьера',
+		'Delete Couriers' => 'Удалить Курьера',
+
+
 
 );
 

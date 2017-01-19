@@ -1,23 +1,40 @@
 <?php
 $this->menu=array(
-	array('label'=>'Create Couriers', 'url'=>array('create')),
-	array('label'=>'Update Couriers', 'url'=>array('update', 'id'=>$model->Id)),
-	array('label'=>'Delete Couriers', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->Id),'confirm'=>'Are you sure you want to delete this item?')),
-	array('label'=>'Manage Couriers', 'url'=>array('admin')),
+	array('label'=>Yii::t('main-ui','Create Couriers'), 'url'=>array('create')),
+	array('label'=>Yii::t('main-ui','Update Couriers'), 'url'=>array('update', 'id'=>$model->Id)),
+	array('label'=>Yii::t('main-ui','Delete Couriers'), 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->Id),'confirm'=>'Are you sure you want to delete this item?')),
+	array('label'=>Yii::t('main-ui','Manage Couriers'), 'url'=>array('admin')),
 );
 ?>
-<h1>View Couriers #<?php echo $model->Id; ?></h1>
+<h1><?= Yii::t('main-ui','View Couriers'); ?> <?php echo $model->Lastname.' '.$model->Name; ?></h1>
 <?php
 	$model['Sex'] = $model['Sex'] ==0 ? 'Women' : 'Man';
 	$this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,
 	'attributes'=>array(
-		'Id',
-		'Name',
-		'Lastname',
-		//'Supp.Login',
 		array(
-			'name'=>'Support',
+			'label'=>Yii::t('main-ui', 'Id'),
+			'type'=>'raw',
+			'value' =>function($data)
+			{
+				return CHtml::encode($data->Id);
+			},),
+		array(
+			'label' => Yii::t('main-ui','Name'),
+				'type' => 'raw',
+			'value' =>function($data)
+			{
+				return CHtml::encode($data->Name);
+			},),
+		array(
+			'label' => Yii::t('main-ui','Lastname'),
+			'type' => 'raw',
+			'value' =>function($data)
+			{
+				return CHtml::encode($data->Lastname);
+			},),
+		array(
+			'label'=>Yii::t('main-ui','Support'),
 			'type'=>'raw',
 			'value' =>function($data)
 			{
@@ -32,20 +49,86 @@ $this->menu=array(
 					return CHtml::encode('');
 				}
 			},),
-		'DOB',
-		'Sex',
-		'Street',
-		'Appartment',
-		'Zip',
-		'City',
-		'Country',
-		'DHL_Office',
-		'Email',
-		'Skype_ICQ',
-		'Phone',
-		//'Scan_ID',
 		array(
-			'name'=>'Scan_ID',
+			'label' => Yii::t('main-ui','Date Of Birth'),
+			'type' => 'raw',
+			'value' =>function($data)
+			{
+				return CHtml::encode($data->DOB);
+			},),
+		array(
+			'label' => Yii::t('main-ui','Sex'),
+			'value' =>'CHtml::encode($data->Sex)',
+			'type' => 'raw',
+			'value' =>function($data)
+			{
+				return CHtml::encode($data->Sex);
+			},),
+		array(
+			'label' => Yii::t('main-ui','Street'),
+			'type' => 'raw',
+			'value' =>function($data)
+			{
+				return CHtml::encode($data->Street);
+			},),
+		array(
+			'label' => Yii::t('main-ui','Appartment'),
+			'type' => 'raw',
+			'value' =>function($data)
+			{
+				return CHtml::encode($data->Appartment);
+			},),
+		array(
+			'label' => Yii::t('main-ui','Zip'),
+			'type' => 'raw',
+			'value' =>function($data)
+			{
+				return CHtml::encode($data->Zip);
+			},),
+		array(
+			'label' => Yii::t('main-ui','City'),
+			'type' => 'raw',
+			'value' =>function($data)
+			{
+				return CHtml::encode($data->City);
+			},),
+		array(
+			'label' => Yii::t('main-ui','Country'),
+			'type' => 'raw',
+			'value' =>function($data)
+			{
+				return CHtml::encode($data->Country);
+			},),
+		array(
+			'label' => Yii::t('main-ui','DHL Office'),
+			'type' => 'raw',
+			'value' =>function($data)
+			{
+				return CHtml::encode($data->DHL_Office);
+			},),
+		array(
+			'label' => Yii::t('main-ui','Email'),
+			'type' => 'raw',
+			'value' =>function($data)
+			{
+				return CHtml::encode($data->Email);
+			},),
+		array(
+			'label' => Yii::t('main-ui','Skype/ICQ'),
+			'type' => 'raw',
+			'value' =>function($data)
+			{
+				return CHtml::encode($data->Skype_ICQ);
+			},),
+		array(
+			'label' => Yii::t('main-ui','Phone'),
+			'type' => 'raw',
+			'value' =>function($data)
+			{
+				return CHtml::encode($data->Phone);
+			},),
+		array(
+			'label' => Yii::t('main-ui','Scan ID'),
 			'type'=>'raw',
 			'value' =>function($data)
 			{
@@ -64,9 +147,8 @@ $this->menu=array(
 					return CHtml::encode('');
 				}
 			},),
-		//'Scan_Registration',
 		array(
-			'name'=>'Scan_Registration',
+			'label' => Yii::t('main-ui','Scan Registration'),
 			'type'=>'raw',
 			'value' =>function($data)
 			{
@@ -85,9 +167,8 @@ $this->menu=array(
 					return CHtml::encode('');
 				}
 			},),
-		//'Scan_Agreement',
 		array(
-			'name'=>'Scan_Agreement',
+			'label' => Yii::t('main-ui','Scan Agreement'),
 			'type'=>'raw',
 			'value' =>function($data)
 			{
@@ -106,13 +187,37 @@ $this->menu=array(
 					return CHtml::encode('');
 				}
 			},),
-		'Start_Date',
-		'Finish_Date',
-		'Pay_Comment',
-		'Staff_Comment',
-		//'Status',
 		array(
-			'name'=>'Status',
+			'label' => Yii::t('main-ui','Start Date'),
+			'type' => 'raw',
+			'value' =>function($data)
+			{
+				return CHtml::encode($data->Start_Date);
+			},),
+		array(
+			'label' => Yii::t('main-ui','Finish Date'),
+			'type' => 'raw',
+			'value' =>function($data)
+			{
+				return CHtml::encode($data->Finish_Date);
+			},),
+		array(
+			'label' => Yii::t('main-ui','Pay Comment'),
+			'type' => 'raw',
+			'value' =>function($data)
+			{
+				return CHtml::encode($data->Pay_Comment);
+			},),
+		array(
+			'label' => Yii::t('main-ui','Staff Comment'),
+			'value' =>'CHtml::encode($data->Staff_Comment)',
+			'type' => 'raw',
+			'value' =>function($data)
+			{
+				return CHtml::encode($data->Staff_Comment);
+			},),
+		array(
+			'label' => Yii::t('main-ui','Status'),
 			'type'=>'raw',
 			'value' =>function($data)
 			{
@@ -125,6 +230,5 @@ $this->menu=array(
 				{
 					return CHtml::encode('');
 				}
-			},),
-	),
-)); ?>
+			},),	
+))); ?>

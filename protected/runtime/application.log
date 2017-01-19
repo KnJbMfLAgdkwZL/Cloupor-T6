@@ -21357,3 +21357,348 @@ in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13
 2014/12/22 09:59:39 [warning] [application] Не удалось присвоить небезопасный атрибут "Id" класса "Couriers".
 in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (187)
 in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 20:48:27 [error] [php] Trying to get property of non-object (D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CComponent.php(612) : eval()'d code:1)
+Stack trace:
+#0 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\zii\widgets\grid\CGridColumn.php(151): CDataColumn->renderDataCellContent()
+#1 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\zii\widgets\grid\CGridView.php(616): CDataColumn->renderDataCell()
+#2 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\zii\widgets\grid\CGridView.php(572): CGridView->renderTableRow()
+#3 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\zii\widgets\grid\CGridView.php(482): CGridView->renderTableBody()
+#4 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\zii\widgets\CBaseListView.php(167): CGridView->renderItems()
+#5 unknown(0): CGridView->renderSection()
+#6 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\zii\widgets\CBaseListView.php(150): preg_replace_callback()
+#7 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\zii\widgets\CBaseListView.php(135): CGridView->renderContent()
+#8 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CBaseController.php(173): CGridView->run()
+#9 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\views\couriers\StafferRentalsCourier.php(84): CouriersController->widget()
+#10 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CBaseController.php(126): require()
+#11 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CBaseController.php(95): CouriersController->renderInternal()
+#12 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(869): CouriersController->renderFile()
+#13 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(782): CouriersController->renderPartial()
+#14 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php(91): CouriersController->render()
+#15 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\actions\CInlineAction.php(49): CouriersController->actionStafferRentalsCourier()
+#16 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(308): CInlineAction->runWithParams()
+#17 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(133): CouriersController->runAction()
+#18 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#20 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CInlineFilter.php(58): CouriersController->filterAccessControl()
+#21 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#22 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(291): CFilterChain->run()
+#23 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(265): CouriersController->runActionWithFilters()
+#24 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(282): CouriersController->run()
+#25 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#26 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#27 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=couriers/StafferRentalsCourier
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\views\couriers\StafferRentalsCourier.php (84)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (91)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 20:48:48 [error] [php] Use of undefined constant Id - assumed 'Id' (D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CComponent.php(612) : eval()'d code:1)
+Stack trace:
+#0 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\zii\widgets\grid\CGridColumn.php(151): CDataColumn->renderDataCellContent()
+#1 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\zii\widgets\grid\CGridView.php(616): CDataColumn->renderDataCell()
+#2 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\zii\widgets\grid\CGridView.php(572): CGridView->renderTableRow()
+#3 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\zii\widgets\grid\CGridView.php(482): CGridView->renderTableBody()
+#4 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\zii\widgets\CBaseListView.php(167): CGridView->renderItems()
+#5 unknown(0): CGridView->renderSection()
+#6 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\zii\widgets\CBaseListView.php(150): preg_replace_callback()
+#7 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\zii\widgets\CBaseListView.php(135): CGridView->renderContent()
+#8 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CBaseController.php(173): CGridView->run()
+#9 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\views\couriers\StafferRentalsCourier.php(84): CouriersController->widget()
+#10 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CBaseController.php(126): require()
+#11 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CBaseController.php(95): CouriersController->renderInternal()
+#12 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(869): CouriersController->renderFile()
+#13 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(782): CouriersController->renderPartial()
+#14 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php(91): CouriersController->render()
+#15 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\actions\CInlineAction.php(49): CouriersController->actionStafferRentalsCourier()
+#16 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(308): CInlineAction->runWithParams()
+#17 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(133): CouriersController->runAction()
+#18 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#20 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CInlineFilter.php(58): CouriersController->filterAccessControl()
+#21 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#22 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(291): CFilterChain->run()
+#23 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(265): CouriersController->runActionWithFilters()
+#24 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(282): CouriersController->run()
+#25 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#26 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#27 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=couriers/StafferRentalsCourier
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\views\couriers\StafferRentalsCourier.php (84)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (91)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 20:48:55 [error] [php] Use of undefined constant Id - assumed 'Id' (D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CComponent.php(612) : eval()'d code:1)
+Stack trace:
+#0 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\zii\widgets\grid\CGridColumn.php(151): CDataColumn->renderDataCellContent()
+#1 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\zii\widgets\grid\CGridView.php(616): CDataColumn->renderDataCell()
+#2 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\zii\widgets\grid\CGridView.php(572): CGridView->renderTableRow()
+#3 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\zii\widgets\grid\CGridView.php(482): CGridView->renderTableBody()
+#4 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\zii\widgets\CBaseListView.php(167): CGridView->renderItems()
+#5 unknown(0): CGridView->renderSection()
+#6 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\zii\widgets\CBaseListView.php(150): preg_replace_callback()
+#7 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\zii\widgets\CBaseListView.php(135): CGridView->renderContent()
+#8 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CBaseController.php(173): CGridView->run()
+#9 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\views\couriers\StafferRentalsCourier.php(84): CouriersController->widget()
+#10 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CBaseController.php(126): require()
+#11 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CBaseController.php(95): CouriersController->renderInternal()
+#12 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(869): CouriersController->renderFile()
+#13 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(782): CouriersController->renderPartial()
+#14 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php(91): CouriersController->render()
+#15 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\actions\CInlineAction.php(49): CouriersController->actionStafferRentalsCourier()
+#16 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(308): CInlineAction->runWithParams()
+#17 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(133): CouriersController->runAction()
+#18 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#20 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CInlineFilter.php(58): CouriersController->filterAccessControl()
+#21 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#22 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(291): CFilterChain->run()
+#23 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(265): CouriersController->runActionWithFilters()
+#24 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(282): CouriersController->run()
+#25 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#26 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#27 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=couriers/StafferRentalsCourier
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\views\couriers\StafferRentalsCourier.php (84)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (91)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 20:57:17 [warning] [application] Failed to set unsafe attribute "Id" of "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (254)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 20:57:25 [warning] [application] Failed to set unsafe attribute "Id" of "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 20:57:41 [warning] [application] Не удалось присвоить небезопасный атрибут "Id" класса "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (254)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 20:57:42 [warning] [application] Не удалось присвоить небезопасный атрибут "Id" класса "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 20:58:24 [warning] [application] Не удалось присвоить небезопасный атрибут "Id" класса "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (254)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 20:59:13 [warning] [application] Не удалось присвоить небезопасный атрибут "Id" класса "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (254)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 20:59:51 [warning] [application] Не удалось присвоить небезопасный атрибут "Id" класса "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (254)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 21:00:13 [warning] [application] Не удалось присвоить небезопасный атрибут "Id" класса "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (254)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 21:01:00 [warning] [application] Не удалось присвоить небезопасный атрибут "Id" класса "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (254)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 21:01:25 [warning] [application] Не удалось присвоить небезопасный атрибут "Id" класса "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 21:01:46 [warning] [application] Не удалось присвоить небезопасный атрибут "Id" класса "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 21:02:13 [warning] [application] Не удалось присвоить небезопасный атрибут "Id" класса "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 21:02:41 [warning] [application] Не удалось присвоить небезопасный атрибут "Id" класса "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 21:02:46 [warning] [application] Не удалось присвоить небезопасный атрибут "Id" класса "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (254)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 21:02:50 [warning] [application] Не удалось присвоить небезопасный атрибут "Id" класса "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 21:09:30 [warning] [application] Не удалось присвоить небезопасный атрибут "Id" класса "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 21:11:00 [warning] [application] Не удалось присвоить небезопасный атрибут "Id" класса "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 21:12:24 [warning] [application] Не удалось присвоить небезопасный атрибут "Id" класса "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 21:13:16 [warning] [application] Не удалось присвоить небезопасный атрибут "Id" класса "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 21:14:29 [warning] [application] Не удалось присвоить небезопасный атрибут "Id" класса "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 21:15:09 [warning] [application] Не удалось присвоить небезопасный атрибут "Id" класса "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 21:16:43 [warning] [application] Не удалось присвоить небезопасный атрибут "Id" класса "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 21:23:01 [warning] [application] Не удалось присвоить небезопасный атрибут "Id" класса "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 21:23:07 [warning] [application] Не удалось присвоить небезопасный атрибут "Id" класса "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 21:23:07 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CDetailView.0".' in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWidgetFactory.php(161): CComponent->__set('0', Array)
+#1 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(CouriersController), 'zii.widgets.CDe...', Array)
+#2 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.CDe...', Array)
+#3 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\views\couriers\view.php(235): CBaseController->widget('zii.widgets.CDe...', Array)
+#4 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CBaseController.php(126): require('D:\Program File...')
+#5 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\Program File...', Array, true)
+#6 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(869): CBaseController->renderFile('D:\Program File...', Array, true)
+#7 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#8 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php(224): CController->render('view', Array)
+#9 [internal function]: CouriersController->actionView('9')
+#10 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(CouriersController), Array)
+#11 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(CouriersController), Object(ReflectionMethod), Array)
+#12 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(291): CFilterChain->run()
+#19 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(282): CController->run('view')
+#21 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(141): CWebApplication->runController('couriers/view')
+#22 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/index.php?r=couriers/view&id=9
+HTTP_REFERER=http://127.0.0.1:8080/index.php?r=couriers/update&id=9
+---
+2014/12/22 21:25:10 [warning] [application] Не удалось присвоить небезопасный атрибут "Id" класса "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 21:25:10 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "CDetailView.0".' in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWidgetFactory.php(161): CComponent->__set('0', Array)
+#1 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(CouriersController), 'zii.widgets.CDe...', Array)
+#2 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.CDe...', Array)
+#3 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\views\couriers\view.php(236): CBaseController->widget('zii.widgets.CDe...', Array)
+#4 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CBaseController.php(126): require('D:\Program File...')
+#5 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\Program File...', Array, true)
+#6 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(869): CBaseController->renderFile('D:\Program File...', Array, true)
+#7 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#8 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php(224): CController->render('view', Array)
+#9 [internal function]: CouriersController->actionView('9')
+#10 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(CouriersController), Array)
+#11 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(CouriersController), Object(ReflectionMethod), Array)
+#12 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(291): CFilterChain->run()
+#19 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(282): CController->run('view')
+#21 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(141): CWebApplication->runController('couriers/view')
+#22 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/index.php?r=couriers/view&id=9
+HTTP_REFERER=http://127.0.0.1:8080/index.php?r=couriers/update&id=9
+---
+2014/12/22 21:26:08 [warning] [application] Не удалось присвоить небезопасный атрибут "Id" класса "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 21:26:26 [warning] [application] Не удалось присвоить небезопасный атрибут "Id" класса "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 21:26:36 [warning] [application] Не удалось присвоить небезопасный атрибут "Id" класса "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 21:26:45 [warning] [application] Не удалось присвоить небезопасный атрибут "Id" класса "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 21:26:51 [warning] [application] Не удалось присвоить небезопасный атрибут "Id" класса "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 21:26:56 [warning] [application] Не удалось присвоить небезопасный атрибут "Id" класса "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 21:27:02 [warning] [application] Не удалось присвоить небезопасный атрибут "Id" класса "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 21:27:08 [warning] [application] Не удалось присвоить небезопасный атрибут "Id" класса "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 21:27:14 [warning] [application] Не удалось присвоить небезопасный атрибут "Id" класса "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 21:27:22 [warning] [application] Не удалось присвоить небезопасный атрибут "Id" класса "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 21:27:27 [warning] [application] Не удалось присвоить небезопасный атрибут "Id" класса "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 21:27:38 [warning] [application] Не удалось присвоить небезопасный атрибут "Id" класса "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 21:27:45 [warning] [application] Не удалось присвоить небезопасный атрибут "Id" класса "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 21:27:51 [warning] [application] Не удалось присвоить небезопасный атрибут "Id" класса "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 21:27:59 [warning] [application] Не удалось присвоить небезопасный атрибут "Id" класса "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 21:28:07 [warning] [application] Не удалось присвоить небезопасный атрибут "Id" класса "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 21:28:13 [warning] [application] Не удалось присвоить небезопасный атрибут "Id" класса "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 21:28:20 [warning] [application] Не удалось присвоить небезопасный атрибут "Id" класса "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 21:28:26 [warning] [application] Не удалось присвоить небезопасный атрибут "Id" класса "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 21:28:39 [warning] [application] Не удалось присвоить небезопасный атрибут "Id" класса "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 21:28:46 [warning] [application] Не удалось присвоить небезопасный атрибут "Id" класса "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 21:28:52 [warning] [application] Не удалось присвоить небезопасный атрибут "Id" класса "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 21:28:58 [warning] [application] Не удалось присвоить небезопасный атрибут "Id" класса "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 21:29:04 [warning] [application] Не удалось присвоить небезопасный атрибут "Id" класса "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 21:29:11 [warning] [application] Не удалось присвоить небезопасный атрибут "Id" класса "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 21:29:17 [warning] [application] Не удалось присвоить небезопасный атрибут "Id" класса "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 21:29:26 [warning] [application] Не удалось присвоить небезопасный атрибут "Id" класса "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 21:29:28 [warning] [application] Не удалось присвоить небезопасный атрибут "Id" класса "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 21:29:29 [warning] [application] Не удалось присвоить небезопасный атрибут "Id" класса "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 21:29:30 [warning] [application] Не удалось присвоить небезопасный атрибут "Id" класса "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 21:29:42 [warning] [application] Не удалось присвоить небезопасный атрибут "Id" класса "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 21:29:44 [warning] [application] Failed to set unsafe attribute "Id" of "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 21:29:47 [warning] [application] Не удалось присвоить небезопасный атрибут "Id" класса "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 21:29:53 [warning] [application] Не удалось присвоить небезопасный атрибут "Id" класса "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 21:29:54 [warning] [application] Failed to set unsafe attribute "Id" of "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/22 21:29:56 [warning] [application] Не удалось присвоить небезопасный атрибут "Id" класса "Couriers".
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
+in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
