@@ -1,5 +1,5 @@
 <?php
-$this->menu=array(
+$this->menu = array(
 	array('label'=>Yii::t('main-ui','Create Couriers'), 'url'=>array('create')),
 	array('label'=>Yii::t('main-ui','Update Couriers'), 'url'=>array('update', 'id'=>$model->Id)),
 	array('label'=>Yii::t('main-ui','Delete Couriers'), 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->Id),'confirm'=>'Are you sure you want to delete this item?')),

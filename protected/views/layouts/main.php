@@ -3,11 +3,13 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta name="language" content="en" />
+
 		<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/screen.css" media="screen, projection" />
 		<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/print.css" media="print" />
 		<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css" />
 		<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />
 		<!--
+		<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/MyStyle.css" />
 		<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/bootstrap.css" />
 		-->
 		<script src="<?php echo Yii::app()->request->baseUrl; ?>/JavaScript/jquery-2.1.1.js"></script>
@@ -60,7 +62,12 @@
 						$arr[] = array('label'=>Yii::t('main-ui', 'My packs'), 'url'=>array('/Couriers/StafferPacks'));
 					}
 					$arr[] = array('label'=>Yii::t('main-ui', 'Logout').' ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest);
-					$this->widget('zii.widgets.CMenu', array('items'=>$arr,));
+					$this->widget('zii.widgets.CMenu',
+						array(
+								'items'=>$arr,
+								'htmlOptions' => array('class' => 'navbar navbar-default'), 	
+							)
+					);
 				}
 			?>
 			</div>

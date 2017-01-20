@@ -115,11 +115,5 @@ return array
 		'View Couriers' => 'Просмотреть Курьера',
 		'Update Couriers' => 'Изменть Курьера',
 		'Delete Couriers' => 'Удалить Курьера',
-
-
-
 );
-
-//Yii::t('main-ui','Fields with');
-
 ?>

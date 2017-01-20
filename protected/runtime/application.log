@@ -21702,3 +21702,14 @@ in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13
 2014/12/22 21:29:56 [warning] [application] Не удалось присвоить небезопасный атрибут "Id" класса "Couriers".
 in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\protected\controllers\CouriersController.php (220)
 in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php (13)
+2014/12/25 20:21:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ShowPack".' in D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php:483
+Stack trace:
+#0 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CController.php(270): CController->missingAction('ShowPack')
+#1 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(282): CController->run('ShowPack')
+#2 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\web\CWebApplication.php(141): CWebApplication->runController('couriers/ShowPa...')
+#3 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=couriers/ShowPack&id=28
+HTTP_REFERER=http://127.0.0.1:8080/index.php?r=users/view&id=27
+---
