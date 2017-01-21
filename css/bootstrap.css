@@ -4467,6 +4467,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   border-bottom-right-radius: 3px;
   border-top-right-radius: 3px;
 }
+/*
 .pager {
   padding-left: 0;
   margin: 21px 0;
@@ -4504,7 +4505,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   color: #ffffff;
   background-color: #18bc9c;
   cursor: not-allowed;
-}
+}*/
 .label {
   display: inline;
   padding: .2em .6em .3em;

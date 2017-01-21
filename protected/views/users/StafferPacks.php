@@ -20,9 +20,11 @@ $this->widget('zii.widgets.grid.CGridView', array(
 				'type'=>'raw',
 				'value' =>function($data)
 				{
-					$str = CHtml::encode($data->Id);
+					/*$str = CHtml::encode($data->Id);
 					$url = "couriers/ShowPack&id={$data->Id}";
-					return CHtml::link($str, array(Yii::app()->request->baseUrl.$url));
+					return CHtml::link($str, array(Yii::app()->request->baseUrl.$url));*/
+
+						return CHtml::encode($data->Id);
 				},),
 			array(
 				'name' => 'Date',

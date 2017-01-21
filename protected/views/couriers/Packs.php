@@ -11,6 +11,7 @@ $str = Yii::t('main-ui','Packs');
 echo "<h1>$str</h1>";
 $this->widget('zii.widgets.grid.CGridView', array(
 	'id' => 'couriers-grid',
+	//'htmlOptions'=>array('class'=>'MYTESTCLASS'),
 	'dataProvider' => $model,
 	'columns' => array(
 				array(

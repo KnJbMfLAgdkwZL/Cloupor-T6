@@ -25,6 +25,7 @@ echo CHtml::link(Yii::t('main-ui','Advanced Search'),'#',array('class'=>'search-
 <?php $this->widget('zii.widgets.grid.CGridView', array(
 	'id'=>'couriers-grid',
 	'dataProvider'=>$model->search(),
+	//'htmlOptions'=>array('class'=>'MYTESTCLASS'),
 	'filter'=>$model,
 	'columns'=>array(
 		array(
@@ -92,6 +93,7 @@ echo CHtml::link(Yii::t('main-ui','Advanced Search'),'#',array('class'=>'search-
 			),
 		array(
 			'class'=>'CButtonColumn',
+			//'htmlOptions'=>array('class'=>'CGridView_thbutton'),
 		),
 	),
 ));

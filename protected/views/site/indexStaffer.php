@@ -1,6 +1,7 @@
-<?php
+﻿<?php
 $this->widget('zii.widgets.CListView', array(
 	'dataProvider'=>$model,
+	'htmlOptions'=>array('class'=>'newscontainer'),
 	'itemView'=>'_view',
 	));
 Yii::app()->clientScript->registerScript('sel_Hide', "
@@ -19,7 +20,6 @@ Yii::app()->clientScript->registerScript('sel_Hide', "
         });
 	});
 ");
-
 Yii::app()->clientScript->registerScript('search', "
 $('.search-button').click(function(){
 	$('.search-form').toggle();

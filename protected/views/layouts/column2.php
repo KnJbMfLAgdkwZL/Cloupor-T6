@@ -14,7 +14,7 @@
 		));
 		$this->widget('zii.widgets.CMenu', array(
 			'items'=>$this->menu,
-			'htmlOptions'=>array('class'=>'operations'),
+			'htmlOptions'=>array('class'=>'nav nav-pills nav-stacked'),
 		));
 		$this->endWidget();
 	?>

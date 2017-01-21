@@ -3,29 +3,35 @@
 $form=$this->beginWidget('CActiveForm', array(
 	'id'=>'users-form',
 	'enableAjaxValidation'=>false,
+	'htmlOptions'=>array('class'=>'form-horizontal'),
 )); ?>
-	<p class="note">
-		<?= Yii::t('main-ui', 'Fields with'); ?>
-		<span class="required">*</span>
-		<?= Yii::t('main-ui', 'are required.'); ?>
-	</p>
-	<?php echo $form->errorSummary($model); ?>
-	<div class="row">
-		<?php
-			echo $form->labelEx($model,'Login',array('label'=>Yii::t('main-ui', 'Login')));
-			echo $form->textField($model,'Login',array('size'=>60,'maxlength'=>255));
-			echo $form->error($model,'Login');
-		?>
+	<div class="form-group">
+		<div class="col-lg-10 col-lg-offset-0">
+			<span class="help-block">
+				<?= Yii::t('main-ui', 'Fields with'); ?>
+				<span class="required">*</span>
+				<?= Yii::t('main-ui', 'are required.'); ?>
+			</span>
+		</div>
 	</div>
-	<div class="row">
-		<?php
-			echo $form->labelEx($model,'Password',array('label'=>Yii::t('main-ui', 'Password')));
-			echo $form->textField($model,'Password',array('size'=>60,'maxlength'=>255));
-			echo $form->error($model,'Password');
-		?>
-		<span id='GetNewPass' style="border: 1px solid black">
-			<?= Yii::t('main-ui', 'Generate Password'); ?>
-        </span>
+	<div class="form-group">
+		<?php echo $form->labelEx($model,'Login',array('class' => 'col-lg-2 control-label','label'=>Yii::t('main-ui', 'Login'))); ?>
+			<div class="col-lg-10">
+			<?php echo $form->textField($model,'Login',array('class'=>'form-control','size'=>60,'maxlength'=>255)); ?>
+			</div>
+			<?php echo $form->error($model,'Login'); ?>
+	</div>
+	<div class="form-group">
+		<?php echo $form->labelEx($model,'Password',array('class' => 'col-lg-2 control-label','label'=>Yii::t('main-ui', 'Password'))); ?>
+			<div class="col-lg-10">
+			<?php echo $form->textField($model,'Password',array('class'=>'form-control','size'=>60,'maxlength'=>255)); ?>
+			</div>
+			<?php echo $form->error($model,'Password'); ?>
+			<div class="col-lg-10 col-lg-offset-2">
+				<span id='GetNewPass' class='btn btn-info btn-sm'>
+					<?= Yii::t('main-ui', 'Generate Password'); ?>
+				</span>
+			</div>
 		<script>
 			$(document).ready(function ()
 			{
@@ -48,16 +54,19 @@ $form=$this->beginWidget('CActiveForm', array(
 			}
 		</script>
 	</div>
-	<div class="row">
-		<?php 
-			echo $form->labelEx($model,'Role',array('label'=>Yii::t('main-ui', 'Role')));
+	<div class="form-group">
+		<?php echo $form->labelEx($model,'Role',array('class' => 'col-lg-2 control-label','label'=>Yii::t('main-ui', 'Role'))); ?>
+		<div class="col-lg-10">
+			<?php
 			$list = UsersRoles::model()->getAssocList();
-			echo CHtml::dropDownList('Users[Role]', $model['Role'], $list);
-		?>
+			echo CHtml::dropDownList('Users[Role]', $model['Role'], $list,array('class'=>'form-control',)); ?>
+		</div>
 		<?php echo $form->error($model,'Role'); ?>
 	</div>
-	<div class="row buttons">
-		<?php echo CHtml::submitButton($model->isNewRecord ? Yii::t('main-ui', 'Create') : Yii::t('main-ui', 'Save')); ?>
+	<div class="form-group">
+		<div class="col-lg-10 col-lg-offset-2">
+		<?php echo CHtml::submitButton($model->isNewRecord ? Yii::t('main-ui', 'Create') : Yii::t('main-ui', 'Save'),array('class'=>'btn btn-primary')); ?>
+		</div>
 	</div>
 <?php $this->endWidget(); ?>
 </div><!-- form -->

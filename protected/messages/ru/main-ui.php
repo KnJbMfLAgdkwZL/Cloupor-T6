@@ -101,7 +101,6 @@ return array
 		'Staffer, Add Pack' => 'Стафер, Добавить Пак',
 		'Goods' => 'Товары',
 		'Total Sum' => 'Общая сумма',
-
 		'Merchandise' => 'Товар',
 		'Price' => 'Цена',
 		'Count' => 'Количество',
@@ -115,5 +114,6 @@ return array
 		'View Couriers' => 'Просмотреть Курьера',
 		'Update Couriers' => 'Изменть Курьера',
 		'Delete Couriers' => 'Удалить Курьера',
+		'Remember me next time' => 'Запомните меня',
 );
 ?>

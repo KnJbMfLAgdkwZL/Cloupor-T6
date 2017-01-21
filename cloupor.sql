@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Хост: 127.0.0.1
--- Время создания: Дек 25 2014 г., 23:13
+-- Время создания: Дек 27 2014 г., 18:18
 -- Версия сервера: 5.6.15-log
 -- Версия PHP: 5.5.8
 
@@ -59,7 +59,7 @@ CREATE TABLE IF NOT EXISTS `couriers` (
 --
 
 INSERT INTO `couriers` (`Id`, `Name`, `Lastname`, `Support`, `DOB`, `Sex`, `Street`, `Appartment`, `Zip`, `City`, `Country`, `DHL_Office`, `Email`, `Skype_ICQ`, `Phone`, `Scan_ID`, `Scan_Registration`, `Scan_Agreement`, `Start_Date`, `Finish_Date`, `Pay_Comment`, `Staff_Comment`, `Status`) VALUES
-(9, 'Новый', 'Тест', 19, 1417936800, 0, 'Ленина', '74', '753951', 'Киев', 'Украина', 'Нету', 'test@mail.ru', 'dfgfd', '12-34-56-78', 'http://cs406719.vk.me/v406719734/6bbf/Dtvj6MyldBQ.jpg', 'http://sl-gorod.ru/content/images/news/20.03.2012/propiska.jpg', 'http://kursk2009.ucoz.ru/kupiprodai_avto/osobye-uslovija_2.jpg', 1417936800, 1420010400, 'про', 'прорпо', 1),
+(9, 'Новый', 'Тест', 19, 1417936800, 0, 'Ленина', '74', '753951', 'Киев', 'Украина', 'Нету', 'test@mail.ru', 'dfgfd', '12-34-56-78', 'http://cs406719.vk.me/v406719734/6bbf/Dtvj6MyldBQ.jpg', 'http://sl-gorod.ru/content/images/news/20.03.2012/propiska.jpg', 'http://kursk2009.ucoz.ru/kupiprodai_avto/osobye-uslovija_2.jpg', 1417936800, 1420010400, 'про', 'пeqweqweqwe', 1),
 (6, 'Виктор', 'Колпаков', 19, 648368400, 1, 'ул Пушкина', '36', '456789', 'Киев', 'Украина', 'дхл', 'test@mail.ru', 'testskype', '45-67-89', 'http://www.google.com/image1', 'www.google.com/image2', 'www.google.com/image3', 1414826400, 1420010400, 'fghgh', 'орпор', 0),
 (5, 'Ваня', 'Ерохин', 19, 546934800, 1, 'pushkina', 'kolotushkina', '45568', 'Kiev', 'Ukraine', 'some dhl', 'dgdfgfdgfdt@gmail.com', 'iopipio', '21-59-58', 'www.google.com/image1', 'www.google.com/image2', 'www.google.com/image3', 1414826400, 1420010400, 'Пиу пиу', 'Иу иу иу', 1),
 (8, 'Иван', 'Карасик', 19, 725786400, 1, 'ghjgh', 'ghjghjgh', 'ghjghj', 'jghj', 'ghjghj', 'jghjghj', 'jghjgh', 'jjh', '6768 67867', 'hjkhj', 'khjkjh', 'gbnb', 1404195600, 1420010400, 'kghjkhjkhk', 'hjkhj', 3),
@@ -80,7 +80,7 @@ CREATE TABLE IF NOT EXISTS `goods` (
   `PacksId` int(11) NOT NULL,
   PRIMARY KEY (`Id`),
   KEY `PacksId` (`PacksId`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=15 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=17 ;
 
 --
 -- Дамп данных таблицы `goods`
@@ -100,7 +100,9 @@ INSERT INTO `goods` (`Id`, `Merchandise`, `Price`, `Count`, `Shop_link`, `PacksI
 (11, 'про', 66, 1, 'прорпо', 43),
 (12, 'тиь', 1, 7, 'итьтиь', 43),
 (13, '67', 6, 6, '6', 44),
-(14, 'hjk', 7, 7, 'hgm', 45);
+(14, 'hjk', 7, 7, 'hgm', 45),
+(15, 'вапп', 6, 7, 'пропро', 46),
+(16, 'укуе', 4, 5, 'вап', 46);
 
 -- --------------------------------------------------------
 
@@ -141,7 +143,7 @@ CREATE TABLE IF NOT EXISTS `newsshown` (
   `IdUsers` int(11) NOT NULL,
   PRIMARY KEY (`Id`),
   KEY `IdNews` (`IdNews`,`IdUsers`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=13 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=15 ;
 
 --
 -- Дамп данных таблицы `newsshown`
@@ -170,7 +172,7 @@ CREATE TABLE IF NOT EXISTS `packs` (
   `Status` int(11) NOT NULL,
   PRIMARY KEY (`Id`),
   KEY `Courier` (`Courier`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=46 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=47 ;
 
 --
 -- Дамп данных таблицы `packs`
@@ -192,7 +194,8 @@ INSERT INTO `packs` (`Id`, `Date`, `Courier`, `Staffer`, `Track`, `Comment`, `Sk
 (36, '2014-12-31', 6, 27, 'кекуеfgfd456456', 'Чемодан', '', 94, 'Usd', 0),
 (27, '2014-12-02', 5, 27, 'uykjhk6hkhjk', 'jhhjkjhk', '', 10, 'Rub', 0),
 (32, '2014-12-10', 6, 27, '454прпар', 'лдждл', 'прпо', 20, 'Usd', 0),
-(33, '2014-12-23', 5, 27, '56765hgjhgj678', 'hkhk', 'njml', 91, 'Usd', 0);
+(33, '2014-12-23', 5, 27, '56765hgjhgj678', 'hkhk', 'njml', 91, 'Usd', 0),
+(46, '2014-12-08', 8, 27, 'попропр', 'пропро', 'пропро', 62, 'Usd', 0);
 
 -- --------------------------------------------------------
 
@@ -269,7 +272,7 @@ CREATE TABLE IF NOT EXISTS `users` (
   PRIMARY KEY (`Id`),
   UNIQUE KEY `Login` (`Login`),
   KEY `Role` (`Role`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=32 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=36 ;
 
 --
 -- Дамп данных таблицы `users`
