@@ -61,13 +61,31 @@ $this->widget('zii.widgets.grid.CGridView', array(
 						return CHtml::encode(date("m/d/Y", $data['Start_Date']));
 					}),
 				array(
-					'name'=>'Packs',
+					'name' => 'Packs',
 					'header' => Yii::t('main-ui','Packs'),
-					'type'=>'raw',
 					'value' =>function($data)
 					{
-						return CHtml::encode( "7|10|8" );
-					}),
+						$id = $data["Id"];
+						$condition = 'Courier=:id AND Status = 0';
+						$params = array(':id'=>$id);
+						$post = Packs::model()->findAll($condition,$params);
+						$s1 = count($post);
+
+						$condition = 'Courier=:id AND Status = 2';
+						$params = array(':id'=>$id);
+						$post = Packs::model()->findAll($condition,$params);
+						$s2 = count($post);
+
+						$condition = 'Courier=:id AND Status = 1';
+						$params = array(':id'=>$id);
+						$post = Packs::model()->findAll($condition,$params);
+						$s3 = count($post);
+
+						return CHtml::encode("$s1|$s2|$s3");
+					},
+					'type'=>'raw',
+					'filter'=> false,
+					),
 				array(
 					'name'=>'Status',
 					'header' => Yii::t('main-ui','Status'),

@@ -72,8 +72,27 @@ $this->widget('zii.widgets.grid.CGridView', array(
 				array(
 					'name' => 'Packs',
 					'header' => Yii::t('main-ui','Packs'),
-					'value' =>'CHtml::encode( "7|10|8" )',
-					'type' => 'html',
+					'value' =>function($data)
+					{
+						$id = $data->Coriers->Id;
+						$condition = 'Courier=:id AND Status = 0';
+						$params = array(':id'=>$id);
+						$post = Packs::model()->findAll($condition,$params);
+						$s1 = count($post);
+
+						$condition = 'Courier=:id AND Status = 2';
+						$params = array(':id'=>$id);
+						$post = Packs::model()->findAll($condition,$params);
+						$s2 = count($post);
+
+						$condition = 'Courier=:id AND Status = 1';
+						$params = array(':id'=>$id);
+						$post = Packs::model()->findAll($condition,$params);
+						$s3 = count($post);
+
+						return CHtml::encode("$s1|$s2|$s3");
+					},
+					'type'=>'raw',
 					'filter'=> false,
 					),
 				array(
