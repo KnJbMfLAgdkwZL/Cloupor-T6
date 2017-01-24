@@ -54,6 +54,7 @@ $form=$this->beginWidget('CActiveForm', array(
 			}
 		</script>
 	</div>
+
 	<div class="form-group">
 		<?php echo $form->labelEx($model,'Role',array('class' => 'col-lg-2 control-label','label'=>Yii::t('main-ui', 'Role'))); ?>
 		<div class="col-lg-10">
@@ -63,6 +64,40 @@ $form=$this->beginWidget('CActiveForm', array(
 		</div>
 		<?php echo $form->error($model,'Role'); ?>
 	</div>
+
+
+
+    <div class="form-group">
+        <?php echo $form->labelEx($model,'Comments',array('class' => 'col-lg-2 control-label','label'=>Yii::t('main-ui', 'Comments'))); ?>
+        <div class="col-lg-10">
+            <?php echo $form->textField($model,'Comments',array('class'=>'form-control','size'=>60,'maxlength'=>255)); ?>
+        </div>
+        <?php echo $form->error($model,'Comments'); ?>
+    </div>
+    <div class="form-group">
+        <?php echo $form->labelEx($model,'Requisites',array('class' => 'col-lg-2 control-label','label'=>Yii::t('main-ui', 'Requisites'))); ?>
+        <div class="col-lg-10">
+            <?php echo $form->textField($model,'Requisites',array('class'=>'form-control','size'=>60,'maxlength'=>255)); ?>
+        </div>
+        <?php echo $form->error($model,'Requisites'); ?>
+    </div>
+    <div class="form-group">
+        <?php echo $form->labelEx($model,'Jabber',array('class' => 'col-lg-2 control-label','label'=>Yii::t('main-ui', 'Jabber'))); ?>
+        <div class="col-lg-10">
+            <?php echo $form->textField($model,'Jabber',array('class'=>'form-control','size'=>60,'maxlength'=>255)); ?>
+        </div>
+        <?php echo $form->error($model,'Jabber'); ?>
+    </div>
+    <div class="form-group">
+        <?php echo $form->labelEx($model,'Wmid',array('class' => 'col-lg-2 control-label','label'=>Yii::t('main-ui', 'Wmid'))); ?>
+        <div class="col-lg-10">
+            <?php echo $form->textField($model,'Wmid',array('class'=>'form-control','size'=>60,'maxlength'=>255)); ?>
+        </div>
+        <?php echo $form->error($model,'Wmid'); ?>
+    </div>
+
+
+
 	<div class="form-group">
 		<div class="col-lg-10 col-lg-offset-2">
 		<?php echo CHtml::submitButton($model->isNewRecord ? Yii::t('main-ui', 'Create') : Yii::t('main-ui', 'Save'),array('class'=>'btn btn-primary')); ?>

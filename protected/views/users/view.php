@@ -37,7 +37,36 @@ $this->widget('zii.widgets.CDetailView', array(
 					'value' =>function($data)
 					{
 						return CHtml::encode($data->users_roles->Name);
-					},),	
+					},),
+                array(
+                    'label'=>Yii::t('main-ui', 'Comments'),
+                    'type'=>'raw',
+                    'value' =>function($data)
+                    {
+                        return CHtml::encode($data->Comments);
+                    },),
+                array(
+                    'label'=>Yii::t('main-ui', 'Requisites'),
+                    'type'=>'raw',
+                    'value' =>function($data)
+                    {
+                        return CHtml::encode($data->Requisites);
+                    },),
+                array(
+                    'label'=>Yii::t('main-ui', 'Jabber'),
+                    'type'=>'raw',
+                    'value' =>function($data)
+                    {
+                        return CHtml::encode($data->Jabber);
+                    },),
+                array(
+                    'label'=>Yii::t('main-ui', 'Wmid'),
+                    'type'=>'raw',
+                    'value' =>function($data)
+                    {
+                        return CHtml::encode($data->Wmid);
+                    },),
+
 				),
 			));
 ?>

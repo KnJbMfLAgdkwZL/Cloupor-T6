@@ -82,18 +82,24 @@ $this->widget('zii.widgets.grid.CGridView', array(
 			'type' => 'raw',
 			'value' => function($data)
 			{
-				$request = array(-1 => 'Refuse', 0 => 'Waiting', 1 => 'Approved');
-				return CHtml::dropDownList("$data->Id", $data->Request, $request);
+                $btn1 = CHtml::button(Yii::t('main-ui', 'Confirm'), array('class'=>'StatusSet btn btn-info btn-sm', 'id'=>$data->Id, 'status'=>1));
+                $btn2 = CHtml::button(Yii::t('main-ui', 'Reject'), array('class'=>'StatusSet btn btn-danger btn-xs', 'id'=>$data->Id, 'status'=>-1));
+                return $btn1.' '.$btn2;
+
+				//$request = array(-1 => 'Refuse', 0 => 'Waiting', 1 => 'Approved');
+				//return CHtml::dropDownList("$data->Id", $data->Request, $request);
+
 			},
 			'cssClassExpression' => '"StatusSelected"',
 		)
 	)
 ));
 Yii::app()->clientScript->registerScript('sel_status', "
-	$('.StatusSelected > select').change(function()
+	$('.StatusSelected > .StatusSet').click(function()
 	{
-        var packId = this.id;
-		var status = this.value;
+        var packId = $(this).attr('id');
+		var status = $(this).attr('status');
+        $(this).parent('td').parent('tr').attr('hidden', '');
         $.ajax({
             url: '?r=couriers/SetRequest',
             data: {Id: packId, Status: status},
@@ -105,3 +111,9 @@ Yii::app()->clientScript->registerScript('sel_status', "
 	});
 ");
 ?>
+<style>
+.span-19
+{
+    width: 80.12345%;
+}
+</style>

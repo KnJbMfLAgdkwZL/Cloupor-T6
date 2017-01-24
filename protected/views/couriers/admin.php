@@ -34,6 +34,7 @@ echo CHtml::link(Yii::t('main-ui','Advanced Search'),'#',array('class'=>'search-
 			'value' =>'CHtml::encode($data->Id)',
 			'type' => 'html',
 			),
+        /*
 		array(
 			'name' => 'Name',
 			'header' => Yii::t('main-ui','Name'),
@@ -46,6 +47,36 @@ echo CHtml::link(Yii::t('main-ui','Advanced Search'),'#',array('class'=>'search-
 			'value' =>'CHtml::encode($data->Lastname)',
 			'type' => 'html',
 			),
+        */
+        array(
+            'name' => 'Lastname',
+            'header' => Yii::t('main-ui','Lastname').' '.Yii::t('main-ui','Name'),
+            'type' => 'raw',
+            'value' =>function($data)
+            {
+                return CHtml::encode($data->Lastname.' '.$data->Name);
+            },
+        ),
+        array(
+            'name' => 'Country',
+            'header' => Yii::t('main-ui','Country'),
+            'type' => 'raw',
+            'value' =>function($data)
+            {
+                return CHtml::encode($data->Country);
+            },
+        ),
+        array(
+            'name' => 'City',
+            'header' => Yii::t('main-ui','City'),
+            'type' => 'raw',
+            'value' =>function($data)
+            {
+                return CHtml::encode($data->City);
+            },
+        ),
+
+
 		array(
 			'name'=>'Support',
 			'header' => Yii::t('main-ui','Support'),

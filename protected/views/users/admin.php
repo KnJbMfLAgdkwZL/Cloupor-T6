@@ -48,9 +48,41 @@ echo "<h1>$str</h1>";
 					'type' => 'html',
 					'filter'=> false,
 				),
+
+            array(
+                'name' => 'Comments',
+                'header' => Yii::t('main-ui','Comments'),
+                'value' =>'CHtml::encode($data->Comments)',
+                'type' => 'html',
+            ),
+            array(
+                'name' => 'Requisites',
+                'header' => Yii::t('main-ui','Requisites'),
+                'value' =>'CHtml::encode($data->Requisites)',
+                'type' => 'html',
+            ),
+            array(
+                'name' => 'Jabber',
+                'header' => Yii::t('main-ui','Jabber'),
+                'value' =>'CHtml::encode($data->Jabber)',
+                'type' => 'html',
+            ),
+            array(
+                'name' => 'Wmid',
+                'header' => Yii::t('main-ui','Wmid'),
+                'value' =>'CHtml::encode($data->Wmid)',
+                'type' => 'html',
+            ),
+
 			array(
 				'class'=>'CButtonColumn',
 			),
 		),
 	));
 ?>
+<style>
+    .span-19
+    {
+        width: 75.12345%;
+    }
+</style>
